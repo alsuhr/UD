@@ -5,6 +5,7 @@ class Word(object):
 	def __init__(self):
 		self.child_dep = [ ]
 		self.p_dep = -1
+		self.subdeptype = ""
 
 	def SetInfo(self, id, word, deptype, pos):
 		self.id = id
@@ -20,6 +21,9 @@ class Word(object):
 
 	def HasParent(self):
 		return self.p_dep >= 0
+
+	def SetSubDeptype(self, subdeptype):
+		self.subdeptype = subdeptype
 
 	def PrintVal(self):
 		print"%d\t%s\t\t\t%s\t%s\t%d\t%s" % (self.id, self.word, self.deptype, self.pos, self.p_dep, ','.join(str(dep) for dep in self.child_dep))
@@ -45,7 +49,10 @@ class Sentence(object):
 			tab_sep = line.split("\t")
 
 			word_val = tab_sep[1]
-			dep_type = tab_sep[7]
+
+			# This strips the second part of the dependency type (if present)
+			split_deptype = tab_sep[7].split(":")
+			dep_type = split_deptype[0]
 			pos = tab_sep[3]
 
 			self.val = self.val + word_val + " "
@@ -59,6 +66,9 @@ class Sentence(object):
 				word = Word()
 
 			word.SetInfo(index, word_val, dep_type, pos)
+
+			if len(split_deptype) > 1:
+				word.SetSubDeptype(split_deptype[1])
 
 			self.words.append(word)
 			
@@ -108,7 +118,6 @@ def GetPosTagsHeadDep(sentence, dep_type, heads, deps):
 					print "--------- New Sentence with Feature --------"
 					sentence.PrintDetails()
 					print "%s\n\n" % sentence.val
-					#print word.word
 
 			# Iterate through the children. Get the POS and keep track of it.
 			for child in word.child_dep:
@@ -116,10 +125,7 @@ def GetPosTagsHeadDep(sentence, dep_type, heads, deps):
 				if child_pos in deps:
 					deps[child_pos] = deps[child_pos] + 1
 				else:
-					deps[child_pos] = 1
-
-
-
+					deps[child_pos] = 1	
 
 # This adds dep tags for the heads and dependents for every occurrence
 # of dep_type in a sentence. If the POS is already in the dictionary, it increments.
@@ -141,6 +147,71 @@ def GetDepTagsHeadDep(sentence, dep_type, heads, deps):
 					deps[child_dep] = deps[child_dep] + 1
 				else:
 					deps[child_dep] = 1
+
+# This adds the subtypes for each dep_type for every occurrence of dep_type in a sentence.
+def GetSubDepTypes(sentence, dep_type, subtypes):
+	for word in sentence.words:
+		if word.deptype == dep_type:
+			# Get the subtype if there is one.
+			subtype = word.subdeptype
+			if subtype != "":
+				if subtype in subtypes:
+					subtypes[subtype] = subtypes[subtype] + 1
+				else:
+					subtypes[subtype] = 1
+			else:
+				subtypes["none"] = subtypes["none"] + 1
+
+# This adds the values of each word for every occurrence of dep_type in a sentence.
+def GetDepWords(sentence, dep_type, words):
+	for word in sentence.words:
+		if word.deptype == dep_type:
+			lower_word = word.word.lower()
+
+			if (lower_word == "glie"):
+				print "--------- New Sentence with Feature --------"
+				sentence.PrintDetails()
+				print "%s\n\n" % sentence.val
+
+			if lower_word in words:
+				words[lower_word] = words[lower_word] + 1
+			else:
+				words[lower_word] = 1
+
+# This adds the pos for every occurrence of dep_type in a sentence.
+def GetDepPos(sentence, dep_type, pos_list):
+	for word in sentence.words:
+		if word.deptype == dep_type:
+			pos = word.pos
+
+			if (pos == "SCONJ"):
+				print "--------- New Sentence with Feature --------"
+				sentence.PrintDetails()
+				print "%s\n\n" % sentence.val
+
+			if pos in pos_list:
+				pos_list[pos] = pos_list[pos] + 1
+			else:
+				pos_list[pos] = 1
+
+# This adds dep tags for the heads and dependents for every occurrence
+# of dep_type in a sentence. If the POS is already in the dictionary, it increments.
+def GetDepHeadWords(sentence, dep_type, head_words):
+	for word in sentence.words:
+		if word.deptype == dep_type:
+			# Get the DEP tag of the head (if it has one). 
+			if word.HasParent():
+				lower_word = sentence.words[word.p_dep].word.lower()
+
+				if (lower_word == "take"):
+					print "--------- New Sentence with Feature --------"
+					sentence.PrintDetails()
+					print "%s\n\n" % sentence.val
+
+				if lower_word in head_words:
+					head_words[lower_word] = head_words[lower_word] + 1
+				else:
+					head_words[lower_word] = 1
 
 def PrintHeadDepPosTags(sentences, dep_type):
 	head_pos = { }
@@ -164,6 +235,49 @@ def PrintHeadDepPosTags(sentences, dep_type):
 
 	print "---------- Dependent POS for %s ----------" % dep_type
 	for pos, count in sorted_dep:
+		print "%s: %s" % (pos, str(count))
+
+def PrintSubDepTypes(sentence, dep_type):
+	subtypes = { }
+	subtypes["none"] = 0
+
+	for sentence in sentences:
+		if sentence.ContainsDeptype(dep_type):
+			GetSubDepTypes(sentence, dep_type, subtypes)
+
+	sorted_deps = { }
+	sorted_deps = sorted(subtypes.items(), key=operator.itemgetter(0))
+
+	print "---------- Subtypes for Dep %s -----------" % dep_type
+	for subtype, count in sorted_deps:
+		print "%s: %s" % (subtype, str(count))
+
+def PrintDepWords(sentence, dep_type):
+	words = { }
+
+	for sentence in sentences:
+		if sentence.ContainsDeptype(dep_type):
+			GetDepHeadWords(sentence, dep_type, words)
+
+	sorted_words = { }
+	sorted_words = sorted(words.items(), key=operator.itemgetter(1))
+
+	print "---------- Words for Dep %s -----------" % dep_type
+	for word, count in sorted_words:
+		print "%s: %s" % (word, str(count))
+
+def PrintDepPos(sentence, dep_type):
+	pos_list = { }
+
+	for sentence in sentences:
+		if sentence.ContainsDeptype(dep_type):
+			GetDepPos(sentence, dep_type, pos_list)
+
+	sorted_pos = { }
+	sorted_pos = sorted(pos_list.items(), key=operator.itemgetter(0))
+
+	print "---------- POS for Dep %s -----------" % dep_type
+	for pos, count in sorted_pos:
 		print "%s: %s" % (pos, str(count))
 
 def CheckObjConsistency(sentences):
@@ -213,5 +327,7 @@ with open(filename) as input_file:
 				curr_sentence.append(line)
 
 # CheckObjConsistency(sentences)
-
-PrintHeadDepPosTags(sentences, sys.argv[2])
+# PrintHeadDepPosTags(sentences, sys.argv[2])
+# PrintDepWords(sentences, sys.argv[2])
+# PrintSubDepTypes(sentences, sys.argv[2])
+PrintDepPos(sentences, sys.argv[2])
