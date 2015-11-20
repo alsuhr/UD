@@ -222,7 +222,7 @@ def GetDepHeadWords(sentence, dep_type, head_words):
           head_words[lower_word] = 1
 
 # Should be used for dependencies where the head must be to the left (e.g. conj)
-def CheckHeadInitialConsistency(sentence, dep_type, leftcount, rightcount, line_numbers):
+def CheckHeadInitialConsistency(sentence, dep_type, leftcount, rightcount, print_info):
   for word in sentence.words:
     if word.deptype == dep_type:
       if word.p_dep < word.id:
@@ -234,8 +234,17 @@ def CheckHeadInitialConsistency(sentence, dep_type, leftcount, rightcount, line_
         sentence.PrintDetails()
         print "%s\n\n" % sentence.val
 
-        if not sentence.line_number in line_numbers:
-          line_numbers.append(sentence.line_number + word.id)
+        # Want to print:
+        #   - line number of the sentence at the beginning
+        #   - id of the incorrect head
+        #   - id of what should be the correct head
+        #   - id of the incorrect head's head and its dependency type
+        #   - ids of dependents of the incorrect head
+        info = str(sentence.line_number) + "," + str(word.p_dep) + "," + str(sentence.words[word.p_dep].p_dep) + "," + sentence.words[word.p_dep].deptype + "," + str(word.id) + ","
+        info = info + ",".join(map(str, sentence.words[word.p_dep].child_dep))
+
+        if not info in print_info:
+          print_info.append(info)
 
   return (leftcount, rightcount)
 
@@ -401,13 +410,12 @@ with open(lang_file) as lang_list:
     # PrintHeadDepPosTags(sentences, sys.argv[3], comps[0])
     num_left = 0
     num_right = 0
-    line_numbers = [ ]
+    print_info = [ ]
     for sentence in sentences:
-      (num_left, num_right) = CheckHeadInitialConsistency(sentence, sys.argv[3], num_left, num_right, line_numbers)
+      (num_left, num_right) = CheckHeadInitialConsistency(sentence, sys.argv[3], num_left, num_right, print_info)
     writefile = open(comps[0] + "_ln.txt", "w")
-    writefile.write(sys.argv[3] + " head-final: " + str(num_right))
-    for number in line_numbers:
-      writefile.write(str(number) + "\n")
+    for info in print_info:
+      writefile.write(info + "\n")
       
 
 # PrintDepWords(sentences, sys.argv[2])
