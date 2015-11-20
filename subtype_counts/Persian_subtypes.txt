@@ -1,0 +1,7 @@
+nsubj:nc: 22
+cc:preconj: 37
+compound:prt: 77
+acl:relcl: 1153
+det:predet: 33
+compound:lvc: 4328
+nmod:poss: 13288

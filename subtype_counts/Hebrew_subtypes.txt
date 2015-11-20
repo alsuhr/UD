@@ -1,0 +1,14 @@
+advmod:phrase: 141
+acl:inf: 237
+nsubj:cop: 354
+aux:q: 35
+acl:relcl: 2558
+nmod:tmod: 208
+advmod:inf: 10
+det:def: 13945
+case:acc: 1707
+case:gen: 1978
+nmod:smixut: 7367
+nmod:poss: 3533
+det:quant: 38
+conj:discourse: 98

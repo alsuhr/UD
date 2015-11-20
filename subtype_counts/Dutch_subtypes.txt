@@ -1,0 +1,2 @@
+det:nummod: 518
+compound:prt: 1819

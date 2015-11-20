@@ -194,9 +194,6 @@ def GetDepPos(sentence, dep_type, pos_list):
     if word.deptype == dep_type:
       pos = word.pos
 
-      if (pos == "NOUN" or pos == "PROPN" or pos == "NUM"):
-        print sentence.line_number
-
       if pos in pos_list:
         pos_list[pos] = pos_list[pos] + 1
       else:
@@ -229,10 +226,6 @@ def CheckHeadInitialConsistency(sentence, dep_type, leftcount, rightcount, print
         leftcount = leftcount + 1
       else:
         rightcount = rightcount + 1
-
-        print "--------- Right head on conj --------"
-        sentence.PrintDetails()
-        print "%s\n\n" % sentence.val
 
         # Want to print:
         #   - line number of the sentence at the beginning
@@ -274,6 +267,31 @@ def PrintHeadDepPosTags(sentences, dep_type, language):
   #print "---------- Dependent POS for %s ----------" % dep_type
   #for pos, count in sorted_dep:
   #  print "%s: %s" % (pos, str(count))
+
+def CountRelPosTags(sentences, dep_type, language, pos_count):
+  pos_list = { }
+
+  for sentence in sentences:
+    if sentence.ContainsDeptype(dep_type):
+      GetDepPos(sentence, dep_type, pos_list)
+
+  for pos, count in pos_list.iteritems():
+    pos_count[pos][language] = count
+
+def GetSubtypes(sentences):
+  result = { }
+
+  for sentence in sentences:
+    for word in sentence.words:
+      subtype = word.subdeptype
+      if subtype != "":
+        wholetype = word.deptype + ":" + subtype
+        if not wholetype in result:
+          result[wholetype] = 1
+        else:
+          result[wholetype] = result[wholetype] + 1   
+
+  return result
 
 def PrintSubDepTypes(sentences, dep_type):
   subtypes = { }
@@ -378,6 +396,18 @@ def CheckObjConsistency(sentences):
 
 lang_file = sys.argv[1]
 lang_prefix = sys.argv[2]
+pos_list = sys.argv[3]
+
+pos_count = { }
+
+with open(pos_list) as pos:
+  for line in pos:
+    pos_count[line[0:len(line) - 1]] = { }
+
+languages = [ ]
+
+left_counts = { }
+right_counts = { }
 
 with open(lang_file) as lang_list:
   for lang_line in lang_list:
@@ -385,7 +415,10 @@ with open(lang_file) as lang_list:
     # Load the sentence inputs.
     sentences = [ ]
 
-    with open(lang_prefix + comps[0] + "/" + comps[1][0:len(comps[1]) - 1] + "-ud-train.conllu") as input_file:
+    for pos, counts in pos_count.iteritems():
+      counts[comps[0]] = 0
+
+    with open(lang_prefix + comps[0] + "/" + comps[1][0:len(comps[1]) - 1] + "-ud-test.conllu") as input_file:
       curr_sentence = []
       index = 0
       sentence_number = -1
@@ -408,15 +441,50 @@ with open(lang_file) as lang_list:
     # CheckObjConsistency(sentences)
     print "---------------------------- LANGUAGE : %s ----------------------------" % comps[0]
     # PrintHeadDepPosTags(sentences, sys.argv[3], comps[0])
+    # CountRelPosTags(sentences, sys.argv[4], comps[0], pos_count) 
+    #subtypes = GetSubtypes(sentences) 
+
+    #outfile = open(comps[0] + "_subtypes.txt", "w")
+    #for subtype, count in subtypes.iteritems():
+    #  outfile.write(subtype + ": " + str(count) + "\n")
+
+    #outfile.close()
+
+    languages.append(comps[0])
+
     num_left = 0
     num_right = 0
     print_info = [ ]
     for sentence in sentences:
-      (num_left, num_right) = CheckHeadInitialConsistency(sentence, sys.argv[3], num_left, num_right, print_info)
+      (num_left, num_right) = CheckHeadInitialConsistency(sentence, sys.argv[4], num_left, num_right, print_info)
     writefile = open(comps[0] + "_ln.txt", "w")
     for info in print_info:
       writefile.write(info + "\n")
-      
+
+    #left_counts[comps[0]] = num_left
+    #right_counts[comps[0]] = num_right
+
+#outfile = open("counts.csv", "w")
+
+#outfile.write("direction,")
+#outfile.write(",".join(languages) + "\n")
+#outfile.write("left,")
+
+#for lang, count in left_counts.iteritems():
+#  print lang
+#  outfile.write(str(count) + ",")
+#outfile.write("\n")
+#outfile.write("right,")
+
+#for lang, count in right_counts.iteritems():
+#  outfile.write(str(count) + ",")
+#outfile.write("\n")
+#for pos, counts in pos_count.iteritems():
+#  outfile.write(pos + ",")
+#  for lang, count in counts.iteritems():
+#    print lang
+#    outfile.write(str(count) + ",")
+#  outfile.write("\n")
 
 # PrintDepWords(sentences, sys.argv[2])
 # PrintSubDepTypes(sentences, sys.argv[2])

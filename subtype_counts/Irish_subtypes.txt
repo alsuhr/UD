@@ -1,0 +1,10 @@
+csubj:cleft: 97
+xcomp:pred: 368
+nmod:prep: 346
+csubj:cop: 30
+nmod:tmod: 41
+compound:prt: 8
+case:voc: 14
+acl:relcl: 308
+mark:prt: 562
+nmod:poss: 175

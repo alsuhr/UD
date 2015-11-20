@@ -1,0 +1,11 @@
+nmod:pmod: 81
+advcl:tmod: 5
+advmod:tmod: 18
+expl:poss: 29
+cc:preconj: 2
+nmod:tmod: 78
+expl:impers: 4
+expl:pass: 45
+expl:pv: 87
+advcl:tcl: 1
+nmod:agent: 38

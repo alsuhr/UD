@@ -1,0 +1,5 @@
+acl:relcl: 1611
+nmod:poss: 915
+nmod:tmod: 106
+nmod:loc: 541
+compound:prt: 355

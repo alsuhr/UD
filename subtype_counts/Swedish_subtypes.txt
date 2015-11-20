@@ -1,0 +1,4 @@
+acl:relcl: 901
+nmod:poss: 1154
+nmod:agent: 152
+compound:prt: 614

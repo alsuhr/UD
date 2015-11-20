@@ -1,0 +1,7 @@
+nmod:npmod: 605
+cc:preconj: 102
+nmod:tmod: 838
+compound:prt: 747
+acl:relcl: 1993
+det:predet: 165
+nmod:poss: 3671

@@ -1,0 +1,4 @@
+det:poss: 1635
+acl:relcl: 2676
+expl:impers: 581
+det:predet: 299

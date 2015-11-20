@@ -1,0 +1,11 @@
+nmod:gsubj: 456
+nsubj:cop: 2442
+nmod:own: 256
+csubj:cop: 123
+cc:preconj: 133
+compound:prt: 246
+acl:relcl: 1698
+compound:nn: 970
+nmod:gobj: 1192
+nmod:poss: 8927
+xcomp:ds: 884
