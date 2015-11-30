@@ -1,0 +1,5 @@
+advmod:emph: 11120
+det:nummod: 261
+nummod:gov: 3797
+auxpass:reflex: 2133
+det:numgov: 441

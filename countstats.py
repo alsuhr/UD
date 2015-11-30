@@ -194,6 +194,11 @@ def GetDepPos(sentence, dep_type, pos_list):
     if word.deptype == dep_type:
       pos = word.pos
 
+      if pos == "PART":
+        print "---------- New Sentence with Feature ----------"
+        sentence.PrintDetails()
+        print "%s\n\n" % sentence.val
+
       if pos in pos_list:
         pos_list[pos] = pos_list[pos] + 1
       else:
@@ -219,7 +224,7 @@ def GetDepHeadWords(sentence, dep_type, head_words):
           head_words[lower_word] = 1
 
 # Should be used for dependencies where the head must be to the left (e.g. conj)
-def CheckHeadInitialConsistency(sentence, dep_type, leftcount, rightcount, print_info):
+def CheckHeadInitialConsistency(sentence, dep_type, leftcount, rightcount, fix_info, save_info):
   for word in sentence.words:
     if word.deptype == dep_type:
       if word.p_dep < word.id:
@@ -236,8 +241,12 @@ def CheckHeadInitialConsistency(sentence, dep_type, leftcount, rightcount, print
         info = str(sentence.line_number) + "," + str(word.p_dep) + "," + str(sentence.words[word.p_dep].p_dep) + "," + sentence.words[word.p_dep].deptype + "," + str(word.id) + ","
         info = info + ",".join(map(str, sentence.words[word.p_dep].child_dep))
 
-        if not info in print_info:
-          print_info.append(info)
+        if len(sentence.words[word.p_dep].child_dep) == 1:
+          if not info in fix_info:
+            fix_info.append(info)
+        else:
+          if not info in save_info:
+            save_info.append(info)
 
   return (leftcount, rightcount)
 
@@ -418,7 +427,7 @@ with open(lang_file) as lang_list:
     for pos, counts in pos_count.iteritems():
       counts[comps[0]] = 0
 
-    with open(lang_prefix + comps[0] + "/" + comps[1][0:len(comps[1]) - 1] + "-ud-test.conllu") as input_file:
+    with open(lang_prefix + comps[0] + "/" + comps[1][0:len(comps[1]) - 1] + "-ud-train.conllu") as input_file:
       curr_sentence = []
       index = 0
       sentence_number = -1
@@ -441,25 +450,31 @@ with open(lang_file) as lang_list:
     # CheckObjConsistency(sentences)
     print "---------------------------- LANGUAGE : %s ----------------------------" % comps[0]
     # PrintHeadDepPosTags(sentences, sys.argv[3], comps[0])
-    # CountRelPosTags(sentences, sys.argv[4], comps[0], pos_count) 
-    #subtypes = GetSubtypes(sentences) 
+    #CountRelPosTags(sentences, sys.argv[4], comps[0], pos_count) 
+    subtypes = GetSubtypes(sentences) 
 
-    #outfile = open(comps[0] + "_subtypes.txt", "w")
-    #for subtype, count in subtypes.iteritems():
-    #  outfile.write(subtype + ": " + str(count) + "\n")
+    outfile = open(comps[0] + "_subtypes.txt", "w")
+    for subtype, count in subtypes.iteritems():
+      outfile.write(subtype + ": " + str(count) + "\n")
 
     #outfile.close()
 
     languages.append(comps[0])
 
-    num_left = 0
-    num_right = 0
-    print_info = [ ]
-    for sentence in sentences:
-      (num_left, num_right) = CheckHeadInitialConsistency(sentence, sys.argv[4], num_left, num_right, print_info)
-    writefile = open(comps[0] + "_ln.txt", "w")
-    for info in print_info:
-      writefile.write(info + "\n")
+    #num_left = 0
+    #num_right = 0
+    #print_info = [ ]
+    #save_info = [ ]
+    #for sentence in sentences:
+    #  (num_left, num_right) = CheckHeadInitialConsistency(sentence, sys.argv[4], num_left, num_right, print_info, save_info)
+    #writefile = open(comps[0] + "_ln.txt", "w")
+    #for info in print_info:
+    #  writefile.write(info + "\n")
+
+    #savefile = open(comps[0] + "_ln_with_dep.txt", "w")
+    #for info in save_info:
+    #  savefile.write(info + "\n")
+    
 
     #left_counts[comps[0]] = num_left
     #right_counts[comps[0]] = num_right
