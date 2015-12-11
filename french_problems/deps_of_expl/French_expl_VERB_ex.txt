@@ -1,0 +1,82 @@
+0				n/a	n/a	-1	1
+1	Qu'			root	PRON	0	2,3,14
+2	est			cop	VERB	1	
+3	-ce			expl	PRON	1	4,7
+4	qu'			mwe	PRON	3	
+5	ils			nsubj	PRON	7	
+6	ont			aux	AUX	7	
+7	fait			acl	VERB	3	5,6,8,11
+8	comme			case	ADP	7	9
+9	alternative			nmod	NOUN	8	
+10	pour			mark	ADP	11	
+11	stopper			advcl	VERB	7	10,13
+12	la			det	DET	13	
+13	drogue			dobj	NOUN	11	12
+14	?			punct	PUNCT	1	
+Qu' est -ce qu' ils ont fait comme alternative pour stopper la drogue ? 
+
+0				n/a	n/a	-1	19
+1	«			punct	PUNCT	5	
+2	Ma			nmod	DET	3	
+3	mutuelle			nsubj	NOUN	5	2,4
+4	actuelle			amod	ADJ	3	
+5	propose			ccomp	VERB	19	1,3,7,11,12,17
+6	120			nummod	NUM	7	
+7	euros			dobj	NOUN	5	6,9
+8	de			case	ADP	9	
+9	forfait			nmod	NOUN	7	8,10
+10	lunettes			compound	NOUN	9	
+11	,			punct	PUNCT	5	
+12	ce			expl	PRON	5	14
+13	qui			nsubj	PRON	14	
+14	est			acl	VERB	12	13,16
+15	très			advmod	ADV	16	
+16	peu			advmod	ADV	14	15
+17	»			punct	PUNCT	5	
+18	,			punct	PUNCT	19	
+19	souligne			root	VERB	0	5,18,20,21
+20	t-il			nsubj	PRON	19	
+21	.			punct	PUNCT	19	
+« Ma mutuelle actuelle propose 120 euros de forfait lunettes , ce qui est très peu » , souligne t-il . 
+
+0				n/a	n/a	-1	1
+1	Qu'			root	PRON	0	2,3,16
+2	est			cop	VERB	1	
+3	-ce			expl	PRON	1	4,8
+4	qui			mwe	PRON	3	
+5	s'			dobj	PRON	8	
+6	est			aux	AUX	8	
+7	vraiment			advmod	ADV	8	
+8	passé			acl	VERB	3	5,6,7,12
+9	lors			case	ADV	12	10
+10	de			mwe	ADP	9	
+11	l'			det	DET	12	
+12	accident			nmod	NOUN	8	9,11,15
+13	avec			case	ADP	15	
+14	la			det	DET	15	
+15	Spyker			nmod	PROPN	12	13,14
+16	?			punct	PUNCT	1	
+Qu' est -ce qui s' est vraiment passé lors de l' accident avec la Spyker ? 
+
+0				n/a	n/a	-1	3
+1	Pas			neg	ADV	3	
+2	un			det	DET	3	
+3	chef			root	NOUN	0	1,2,5,6,7,8,19
+4	d'			case	ADP	5	
+5	œuvre			nmod	PROPN	3	4
+6	donc			advmod	ADV	3	
+7	,			punct	PUNCT	3	
+8	ce			expl	PRON	3	11
+9	qui			nsubj	PRON	11	
+10	peut			aux	AUX	11	
+11	expliquer			acl	VERB	8	9,10,13
+12	un			det	DET	13	
+13	succès			dobj	NOUN	11	12,14,17
+14	mitigé			amod	ADJ	13	
+15	à			case	ADP	17	
+16	le			det	DET	17	
+17	box-office			nmod	X	13	15,16,18
+18	mondial			amod	ADJ	17	
+19	.			punct	PUNCT	3	
+Pas un chef d' œuvre donc , ce qui peut expliquer un succès mitigé à le box-office mondial . 
+

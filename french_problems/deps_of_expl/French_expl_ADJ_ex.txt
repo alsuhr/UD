@@ -1,0 +1,19 @@
+0				n/a	n/a	-1	6
+1	Le			det	DET	2	
+2	camping			nsubj	NOUN	6	1
+3	n'			neg	PART	6	
+4	est			aux	AUX	6	
+5	pas			neg	ADV	6	
+6	éclairé			root	VERB	0	2,3,4,5,8,9,10,16
+7	la			det	DET	8	
+8	nuit			nmod	NOUN	6	7
+9	,			punct	PUNCT	6	
+10	ce			expl	PRON	6	15
+11	qui			nsubj	PRON	15	
+12	n'			neg	PART	15	
+13	est			cop	VERB	15	
+14	pas			neg	ADV	15	
+15	pratique			acl	ADJ	10	11,12,13,14
+16	.			punct	PUNCT	6	
+Le camping n' est pas éclairé la nuit , ce qui n' est pas pratique . 
+

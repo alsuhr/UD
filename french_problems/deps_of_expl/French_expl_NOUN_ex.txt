@@ -1,0 +1,38 @@
+0				n/a	n/a	-1	9
+1	Or			cc	CONJ	9	
+2	,			punct	PUNCT	9	
+3	dans			case	ADP	5	
+4	cette			det	DET	5	
+5	affaire			nmod	NOUN	9	3,4
+6	,			punct	PUNCT	9	
+7	on			nsubj	PRON	9	
+8	a			aux	AUX	9	
+9	transféré			root	VERB	0	1,2,5,6,7,8,12,14,19,35
+10	sur			case	ADP	12	
+11	les			det	DET	12	
+12	salariés			nmod	NOUN	9	10,11
+13	le			det	DET	14	
+14	coût			dobj	NOUN	9	13,17,18
+15	de			case	ADP	17	
+16	leur			nmod	DET	17	
+17	défense			nmod	NOUN	14	15,16
+18	,			punct	PUNCT	14	
+19	ce			expl	PRON	9	24
+20	qui			nsubj	PRON	24	
+21	est			cop	VERB	24	
+22	malheureusement			advmod	ADV	24	
+23	un			det	DET	24	
+24	phénomène			acl	NOUN	19	20,21,22,23,28
+25	que			dobj	PRON	28	
+26	l'			expl	PRON	27	
+27	on			nsubj	PRON	28	26
+28	observe			acl	VERB	24	25,27,30,34
+29	de			mwe	ADP	30	
+30	plus			advmod	ADV	28	29,31,32
+31	en			mwe	ADP	30	
+32	plus			mwe	ADV	30	
+33	en			case	ADP	34	
+34	France			nmod	PROPN	28	33
+35	.			punct	PUNCT	9	
+Or , dans cette affaire , on a transféré sur les salariés le coût de leur défense , ce qui est malheureusement un phénomène que l' on observe de plus en plus en France . 
+
