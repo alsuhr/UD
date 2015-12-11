@@ -1,0 +1,1395 @@
+0				n/a	n/a	-1	5
+1	Un			det	DET	2	
+2	groupe			nsubj	NOUN	5	1,3
+3	constitué			amod	ADJ	2	
+4	ne			neg	PART	5	
+5	tient			root	VERB	0	2,4,6,10,28
+6	que			expl	SCONJ	5	
+7	parce			mwe	ADV	8	
+8	qu'			mark	SCONJ	10	7
+9	il			nsubj	PRON	10	
+10	partage			advcl	VERB	5	8,9,13
+11	un			det	DET	13	
+12	certain			amod	ADJ	13	
+13	nombre			dobj	NOUN	10	11,12,15,16,19,22,25
+14	de			case	ADP	15	
+15	présupposés			nmod	NOUN	13	14
+16	,			punct	PUNCT	13	
+17	un			det	DET	19	
+18	certain			amod	ADJ	19	
+19	nombres			conj	NOUN	13	17,18,21
+20	de			case	ADP	21	
+21	valeurs			nmod	NOUN	19	20
+22	,			punct	PUNCT	13	
+23	un			det	DET	25	
+24	certain			amod	ADJ	25	
+25	nombre			conj	NOUN	13	23,24,27
+26	de			case	ADP	27	
+27	subjectivités			nmod	NOUN	25	26
+28	.			punct	PUNCT	5	
+Un groupe constitué ne tient que parce qu' il partage un certain nombre de présupposés , un certain nombres de valeurs , un certain nombre de subjectivités . 
+
+0				n/a	n/a	-1	3
+1	Il			nsubj	PRON	3	
+2	ne			neg	PART	3	
+3	manque			root	VERB	0	1,2,4,5,7,8
+4	plus			advmod	ADV	3	
+5	que			expl	SCONJ	3	
+6	le			det	DET	7	
+7	soleil			dobj	NOUN	3	6
+8	...			punct	PUNCT	3	
+Il ne manque plus que le soleil ... 
+
+0				n/a	n/a	-1	1
+1	Confrontation			root	NOUN	0	4,20
+2	qui			nsubj	PRON	4	
+3	n'			neg	PART	4	
+4	a			acl	VERB	1	2,3,5,8,11
+5	que			expl	SCONJ	4	
+6	pour			case	ADP	8	
+7	seul			amod	ADJ	8	
+8	but			nmod	NOUN	4	6,7
+9	de			mark	ADP	11	
+10	le			dobj	PRON	11	
+11	marginaliser			acl	VERB	4	9,10,14
+12	en			mark	ADP	14	
+13	le			nsubj	PRON	15	
+14	faisant			advcl	VERB	11	12,15
+15	passer			ccomp	VERB	14	13,18
+16	pour			case	ADP	18	
+17	un			det	DET	18	
+18	extrémiste			nmod	NOUN	15	16,17,19
+19	irresponsable			amod	ADJ	18	
+20	.			punct	PUNCT	1	
+Confrontation qui n' a que pour seul but de le marginaliser en le faisant passer pour un extrémiste irresponsable . 
+
+0				n/a	n/a	-1	3
+1	je			nsubj	PRON	3	
+2	ne			neg	PART	3	
+3	saurai			root	VERB	0	1,2,4,7,32
+4	que			expl	SCONJ	3	
+5	trop			advmod	ADV	7	
+6	vous			iobj	PRON	7	
+7	conseiller			xcomp	VERB	3	5,6,9,12
+8	cette			det	DET	9	
+9	entreprise			dobj	NOUN	7	8
+10	pour			case	ADP	12	
+11	la			det	DET	12	
+12	qualité			nmod	NOUN	7	10,11,15,16,18,26,28
+13	de			case	ADP	15	
+14	ses			nmod	DET	15	
+15	réalisations			nmod	NOUN	12	13,14
+16	,			punct	PUNCT	12	
+17	l'			det	DET	18	
+18	écoute			conj	NOUN	12	17,19
+19	apportée			acl	VERB	18	22
+20	à			case	ADP	22	
+21	le			det	DET	22	
+22	besoin			nmod	NOUN	19	20,21,25
+23	de			case	ADP	25	
+24	le			det	DET	25	
+25	client			nmod	NOUN	22	23,24
+26	et			cc	CONJ	12	
+27	la			det	DET	28	
+28	gentillesse			conj	NOUN	12	27,31
+29	de			case	ADP	31	
+30	son			nmod	DET	31	
+31	accueil			nmod	NOUN	28	29,30
+32	.			punct	PUNCT	3	
+je ne saurai que trop vous conseiller cette entreprise pour la qualité de ses réalisations , l' écoute apportée à le besoin de le client et la gentillesse de son accueil . 
+
+0				n/a	n/a	-1	37
+1	La			det	DET	2	
+2	mobilisation			nsubj	NOUN	37	1,3,6
+3	permanente			amod	ADJ	2	
+4	de			case	ADP	6	
+5	les			det	DET	6	
+6	forces			nmod	NOUN	2	4,5,7,8,12
+7	armées			amod	ADJ	6	
+8	opérationnelles			amod	ADJ	6	
+9	de			case	ADP	12	
+10	les			det	DET	12	
+11	deux			nummod	NUM	12	
+12	pays			nmod	NOUN	6	9,10,11
+13	,			punct	PUNCT	37	
+14	tout			advmod	ADV	17	
+15	à			case	ADP	17	
+16	le			det	DET	17	
+17	long			nmod	NOUN	37	14,15,16,20
+18	de			case	ADP	20	
+19	la			det	DET	20	
+20	frontière			nmod	NOUN	17	18,19,21,24
+21	et			cc	CONJ	20	
+22	dans			case	ADP	24	
+23	des			det	DET	24	
+24	sites			conj	NOUN	20	22,23,25
+25	stratégiques			amod	ADJ	24	
+26	,			punct	PUNCT	37	
+27	depuis			case	ADP	31	
+28	plus			advmod	ADV	30	29
+29	de			mwe	ADP	28	
+30	35			nummod	NUM	31	28
+31	ans			nmod	NOUN	37	27,30
+32	,			punct	PUNCT	37	
+33	n'			neg	PART	37	
+34	est			cop	VERB	37	
+35	qu'			expl	SCONJ	37	
+36	une			det	DET	37	
+37	preuve			root	NOUN	0	2,13,17,26,31,32,33,34,35,36,38,39,42,51,53
+38	supplémentaire			amod	ADJ	37	
+39	concrète			amod	ADJ	37	
+40	de			case	ADP	42	
+41	l'			det	DET	42	
+42	état			nmod	NOUN	37	40,41,44,46
+43	de			case	ADP	44	
+44	guerre			nmod	NOUN	42	43
+45	qui			nsubj	PRON	46	
+46	règne			acl	VERB	42	45,49
+47	à			case	ADP	49	
+48	cette			det	DET	49	
+49	frontière			nmod	NOUN	46	47,48
+50	(			punct	PUNCT	51	
+51	8			nmod	NUM	37	50,52
+52	)			punct	PUNCT	51	
+53	.			punct	PUNCT	37	
+La mobilisation permanente de les forces armées opérationnelles de les deux pays , tout à le long de la frontière et dans des sites stratégiques , depuis plus de 35 ans , n' est qu' une preuve supplémentaire concrète de l' état de guerre qui règne à cette frontière ( 8 ) . 
+
+0				n/a	n/a	-1	11
+1	L'			det	DET	2	
+2	accueil			nsubj	NOUN	11	1
+3	est			cop	VERB	11	
+4	à			case	ADP	6	
+5	l'			det	DET	6	
+6	image			nmod	NOUN	11	4,5,9
+7	de			case	ADP	9	
+8	son			nmod	DET	9	
+9	atelier			nmod	NOUN	6	7,8
+10	,			punct	PUNCT	11	
+11	chaleureux			root	ADJ	0	2,3,6,10,12,13,36,37,44,45,46
+12	et			cc	CONJ	11	
+13	offrant			conj	VERB	11	16,24
+14	un			det	DET	16	
+15	vrai			amod	ADJ	16	
+16	plaisir			dobj	NOUN	13	14,15,19
+17	de			case	ADP	19	
+18	les			det	DET	19	
+19	yeux			nmod	NOUN	16	17,18
+20	grâce			case	NOUN	24	21
+21	à			mwe	ADP	20	
+22	un			det	DET	24	
+23	savoir			compound	NOUN	24	
+24	faire			nmod	VERB	13	20,22,23,25,29
+25	unique			amod	ADJ	24	
+26	en			mwe	ADP	27	
+27	matière			case	NOUN	29	26,28
+28	de			mwe	ADP	27	
+29	restauration			nmod	NOUN	24	27,31
+30	de			case	ADP	31	
+31	sièges			nmod	NOUN	29	30,32,33,34,35
+32	,			punct	PUNCT	31	
+33	rideaux			conj	NOUN	31	
+34	,			punct	PUNCT	31	
+35	canapés			conj	NOUN	31	
+36	,			punct	PUNCT	11	
+37	....			punct	PUNCT	11	
+38	Je			nsubj	PRON	44	
+39	ne			neg	PART	44	
+40	peux			aux	AUX	44	
+41	que			expl	SCONJ	44	
+42	vous			iobj	PRON	44	
+43	le			dobj	PRON	44	
+44	recommander			parataxis	VERB	11	38,39,40,41,42,43
+45	,			punct	PUNCT	11	
+46	visitez			parataxis	VERB	11	48,50,54
+47	son			nmod	DET	48	
+48	site			dobj	NOUN	46	47
+49	pour			mark	ADP	50	
+50	voir			advcl	VERB	46	49,53
+51	toutes			det	DET	53	
+52	ses			nmod	DET	53	
+53	réalisations			dobj	NOUN	50	51,52
+54	http://www.maisonbrazet.fr			dobj	SYM	46	
+L' accueil est à l' image de son atelier , chaleureux et offrant un vrai plaisir de les yeux grâce à un savoir faire unique en matière de restauration de sièges , rideaux , canapés , .... Je ne peux que vous le recommander , visitez son site pour voir toutes ses réalisations http://www.maisonbrazet.fr 
+
+0				n/a	n/a	-1	10
+1	Les			det	DET	2	
+2	Français			nsubj	PROPN	10	1,4
+3	fiscalement			advmod	ADV	4	
+4	domiciliés			acl	VERB	2	3,7
+5	à			case	ADP	7	
+6	l'			det	DET	7	
+7	étranger			nmod	NOUN	4	5,6
+8	ne			neg	PART	10	
+9	sont			aux	AUX	10	
+10	soumis			root	VERB	0	2,8,9,12,15,16,19,31
+11	en			case	ADP	12	
+12	France			nmod	PROPN	10	11
+13	à			case	ADP	15	
+14	l'			det	DET	15	
+15	impôt			nmod	NOUN	10	13,14
+16	que			expl	SCONJ	10	
+17	sur			case	ADP	19	
+18	leurs			nmod	DET	19	
+19	revenus			nmod	NOUN	10	17,18,21,25
+20	de			case	ADP	21	
+21	source			nmod	NOUN	19	20,22
+22	française			amod	ADJ	21	
+23	(			punct	PUNCT	25	
+24	sous			case	ADP	25	
+25	respect			nmod	NOUN	19	23,24,28,30
+26	de			case	ADP	28	
+27	les			det	DET	28	
+28	conventions			nmod	NOUN	25	26,27,29
+29	fiscales			amod	ADJ	28	
+30	)			punct	PUNCT	25	
+31	.			punct	PUNCT	10	
+Les Français fiscalement domiciliés à l' étranger ne sont soumis en France à l' impôt que sur leurs revenus de source française ( sous respect de les conventions fiscales ) . 
+
+0				n/a	n/a	-1	14
+1	Dans			case	ADP	4	
+2	le			det	DET	4	
+3	même			amod	ADJ	4	
+4	temps			nmod	NOUN	14	1,2,3
+5	,			punct	PUNCT	14	
+6	la			det	DET	7	
+7	croissance			nsubjpass	NOUN	14	6,10
+8	de			case	ADP	10	
+9	le			det	DET	10	
+10	groupe			nmod	NOUN	7	8,9
+11	n'			neg	PART	14	
+12	a			aux	AUX	14	
+13	été			auxpass	AUX	14	
+14	rendue			root	VERB	0	4,5,7,11,12,13,15,16,19,27
+15	possible			dobj	NOUN	14	
+16	que			expl	SCONJ	14	
+17	par			case	ADP	19	
+18	l'			det	DET	19	
+19	émission			nmod	NOUN	14	17,18,24
+20	de			case	ADP	24	
+21	15,959			nummod	NUM	22	
+22	milliards			nummod	NUM	24	21
+23	de			expl	ADP	24	
+24	dollars			nmod	NOUN	19	20,22,23,26
+25	d'			case	ADP	26	
+26	actions			nmod	NOUN	24	25
+27	.			punct	PUNCT	14	
+Dans le même temps , la croissance de le groupe n' a été rendue possible que par l' émission de 15,959 milliards de dollars d' actions . 
+
+0				n/a	n/a	-1	5
+1	Nous			nsubj	PRON	5	
+2	ne			neg	PART	5	
+3	pouvons			aux	AUX	5	
+4	que			expl	SCONJ	5	
+5	recommander			root	VERB	0	1,2,3,4,7,9,22
+6	très			advmod	ADV	7	
+7	chaleureusement			advmod	ADV	5	6
+8	cet			det	DET	9	
+9	établissement			dobj	NOUN	5	8,13
+10	qui			nsubj	PRON	13	
+11	nous			dobj	PRON	13	
+12	a			aux	AUX	13	
+13	accueillis			acl	VERB	9	10,11,12,15
+14	avec			case	ADP	15	
+15	sourire			nmod	NOUN	13	14,16,17,18,19,20,21
+16	,			punct	PUNCT	15	
+17	chaleur			conj	NOUN	15	
+18	,			punct	PUNCT	15	
+19	humour			conj	NOUN	15	
+20	et			cc	CONJ	15	
+21	confort			conj	NOUN	15	
+22	.			punct	PUNCT	5	
+Nous ne pouvons que recommander très chaleureusement cet établissement qui nous a accueillis avec sourire , chaleur , humour et confort . 
+
+0				n/a	n/a	-1	3
+1	Il			nsubj	PRON	3	
+2	ne			neg	PART	3	
+3	fait			root	VERB	0	1,2,4,7,8
+4	que			expl	SCONJ	3	
+5	des			det	DET	7	
+6	petits			amod	ADJ	7	
+7	larcins			dobj	NOUN	3	5,6
+8	.			punct	PUNCT	3	
+Il ne fait que des petits larcins . 
+
+0				n/a	n/a	-1	20
+1	Malgré			case	ADP	4	
+2	la			det	DET	4	
+3	nouvelle			amod	ADJ	4	
+4	loi			nmod	NOUN	20	1,2,3,7
+5	qui			nsubj	PRON	7	
+6	l'			dobj	PRON	7	
+7	autorise			acl	VERB	4	5,6,10
+8	à			mark	ADP	10	
+9	ne			neg	PART	10	
+10	fermer			acl	VERB	7	8,9,12,13,16
+11	ses			nmod	DET	12	
+12	portes			dobj	NOUN	10	11
+13	qu'			expl	SCONJ	10	
+14	à			case	ADP	16	
+15	7			nummod	NUM	16	
+16	h			nmod	NOUN	10	14,15
+17	,			punct	PUNCT	20	
+18	Thierry			nsubj	PROPN	20	19
+19	Parisot			name	PROPN	18	
+20	maintient			root	VERB	0	4,17,18,22,23
+21	ses			nmod	DET	22	
+22	horaires			dobj	NOUN	20	21
+23	.			punct	PUNCT	20	
+Malgré la nouvelle loi qui l' autorise à ne fermer ses portes qu' à 7 h , Thierry Parisot maintient ses horaires . 
+
+0				n/a	n/a	-1	10
+1	Ceux			nsubj	PRON	7	2
+2	là			advmod	ADV	1	
+3	étant			cop	VERB	7	
+4	que			expl	SCONJ	7	
+5	de			det	DET	7	
+6	simples			amod	ADJ	7	
+7	marionnettes			acl	NOUN	10	1,3,4,5,6
+8	,			punct	PUNCT	10	
+9	il			nsubj	PRON	10	
+10	existe			root	VERB	0	7,8,9,13,14,17,21,22
+11	de			case	ADP	13	
+12	toute			det	DET	13	
+13	évidence			nmod	NOUN	10	11,12
+14	,			punct	PUNCT	10	
+15	un			det	DET	17	
+16	puissant			amod	ADJ	17	
+17	lobby			dobj	NOUN	10	15,16,18
+18	politique			amod	ADJ	17	
+19	derrière			case	ADP	21	
+20	tout			det	DET	21	
+21	cela			nmod	PRON	10	19,20
+22	...			punct	PUNCT	10	
+Ceux là étant que de simples marionnettes , il existe de toute évidence , un puissant lobby politique derrière tout cela ... 
+
+0				n/a	n/a	-1	2
+1	Un			det	DET	2	
+2	traiteur			root	NOUN	0	1,5,11,13
+3	qui			nsubj	PRON	5	
+4	ne			neg	PART	5	
+5	travaille			acl	VERB	2	3,4,6,9
+6	qu'			expl	SCONJ	5	
+7	avec			case	ADP	9	
+8	des			det	DET	9	
+9	produits			nmod	NOUN	5	7,8,10
+10	frais			amod	ADJ	9	
+11	et			cc	CONJ	2	
+12	une			det	DET	13	
+13	qualité			conj	NOUN	2	12,15
+14	de			case	ADP	15	
+15	service			nmod	NOUN	13	14
+Un traiteur qui ne travaille qu' avec des produits frais et une qualité de service 
+
+0				n/a	n/a	-1	11
+1	Nous			nsubj	PRON	5	
+2	ne			neg	PART	5	
+3	pouvons			aux	AUX	5	
+4	que			expl	SCONJ	5	
+5	féliciter			ccomp	VERB	11	1,2,3,4,7,9
+6	cette			det	DET	7	
+7	décision			dobj	NOUN	5	6,8
+8	gouvernementale			amod	ADJ	7	
+9	»			punct	PUNCT	5	
+10	,			punct	PUNCT	11	
+11	ajoute			root	VERB	0	5,10,12,19
+12	Andréa			nsubj	PROPN	11	13,14,15
+13	Gagnon			name	PROPN	12	
+14	,			punct	PUNCT	12	
+15	présidente			appos	NOUN	12	18
+16	de			case	ADP	18	
+17	le			det	DET	18	
+18	RMJQ			nmod	PROPN	15	16,17
+19	.			punct	PUNCT	11	
+Nous ne pouvons que féliciter cette décision gouvernementale » , ajoute Andréa Gagnon , présidente de le RMJQ . 
+
+0				n/a	n/a	-1	3
+1	Certains			det	DET	2	
+2	poissons			nsubj	NOUN	3	1
+3	affichent			root	VERB	0	2,5,10,11,15,26
+4	le			det	DET	5	
+5	label			dobj	NOUN	3	4,7
+6	«			punct	PUNCT	7	
+7	pêche			appos	NOUN	5	6,8,9
+8	durable			amod	ADJ	7	
+9	»			punct	PUNCT	7	
+10	,			punct	PUNCT	3	
+11	mais			cc	CONJ	3	
+12	il			nsubj	PRON	15	
+13	est			aux	AUX	15	
+14	parfois			advmod	ADV	15	
+15	contesté			conj	VERB	3	12,13,14,16,18
+16	et			cc	CONJ	15	
+17	ne			neg	PART	18	
+18	touche			conj	NOUN	15	17,19,21,23
+19	semble			parataxis	VERB	18	20
+20	-t-il			nsubj	PRON	19	
+21	qu'			expl	SCONJ	18	
+22	une			det	DET	23	
+23	minorité			dobj	NOUN	18	22,25
+24	de			case	ADP	25	
+25	produits			nmod	NOUN	23	24
+26	.			punct	PUNCT	3	
+Certains poissons affichent le label « pêche durable » , mais il est parfois contesté et ne touche semble -t-il qu' une minorité de produits . 
+
+0				n/a	n/a	-1	21
+1	Toute			det	DET	3	
+2	l'			det	DET	3	
+3	équipe			nsubj	NOUN	21	1,2,6
+4	de			case	ADP	6	
+5	le			det	DET	6	
+6	Théâtre			nmod	PROPN	3	4,5,8,13
+7	La			compound	DET	8	
+8	Comédie			appos	PROPN	6	7,9,10
+9	de			case	ADP	8	
+10	Tours			name	PROPN	8	
+11	,			punct	PUNCT	21	
+12	seul			amod	ADJ	13	
+13	théâtre			appos	NOUN	6	12,14,16
+14	privé			amod	ADJ	13	
+15	d'			case	ADP	16	
+16	Indre			nmod	PROPN	13	15,17,18
+17	et			cc	CONJ	16	
+18	Loire			name	PROPN	16	
+19	,			punct	PUNCT	21	
+20	n'			neg	PART	21	
+21	a			root	VERB	0	3,11,19,20,22,25,40,43
+22	qu'			expl	SCONJ	21	
+23	un			det	DET	25	
+24	seul			amod	ADJ	25	
+25	but			dobj	NOUN	21	23,24,26,27
+26	:			punct	PUNCT	25	
+27	distraire			parataxis	VERB	25	29,36
+28	le			det	DET	29	
+29	public			dobj	NOUN	27	28,32
+30	le			det	DET	31	
+31	plus			advmod	ADV	32	30
+32	large			amod	ADJ	29	31
+33	avec			case	ADP	36	
+34	la			det	DET	35	
+35	plus			advmod	ADV	36	34
+36	belle			amod	ADJ	27	33,35,39
+37	de			case	ADP	39	
+38	les			det	DET	39	
+39	émotions			nmod	NOUN	36	37,38,42
+40	,			punct	PUNCT	21	
+41	le			det	DET	42	
+42	rire			appos	NOUN	39	41
+43	...			punct	PUNCT	21	
+Toute l' équipe de le Théâtre La Comédie de Tours , seul théâtre privé d' Indre et Loire , n' a qu' un seul but : distraire le public le plus large avec la plus belle de les émotions , le rire ... 
+
+0				n/a	n/a	-1	11
+1	Si			mark	SCONJ	3	
+2	on			nsubj	PRON	3	
+3	utilise			advcl	VERB	11	1,2,6
+4	le			det	DET	6	
+5	3e			amod	ADJ	6	
+6	lit			dobj	NOUN	3	4,5
+7	,			punct	PUNCT	11	
+8	on			nsubj	PRON	11	
+9	ne			neg	PART	11	
+10	peut			aux	AUX	11	
+11	mettre			root	VERB	0	3,7,8,9,10,13,14,17,20
+12	les			det	DET	13	
+13	valises			dobj	NOUN	11	12
+14	que			expl	SCONJ	11	
+15	dans			case	ADP	17	
+16	la			det	DET	17	
+17	salle			nmod	NOUN	11	15,16,19
+18	de			case	ADP	19	
+19	bain			nmod	NOUN	17	18
+20	.			punct	PUNCT	11	
+Si on utilise le 3e lit , on ne peut mettre les valises que dans la salle de bain . 
+
+0				n/a	n/a	-1	3
+1	Il			expl	PRON	3	
+2	est			cop	VERB	3	
+3	inconcevable			root	ADJ	0	1,2,10,19
+4	qu'			expl	SCONJ	10	
+5	une			det	DET	6	
+6	chose			nsubj	NOUN	10	5,7
+7	pareille			amod	ADJ	6	
+8	puisse			aux	AUX	10	
+9	se			dobj	PRON	10	
+10	produire			csubj	VERB	3	4,6,8,9,13
+11	dans			case	ADP	13	
+12	l'			det	DET	13	
+13	enceinte			nmod	NOUN	10	11,12,16
+14	d'			case	ADP	16	
+15	un			det	DET	16	
+16	commissariat			nmod	NOUN	13	14,15,18
+17	de			case	ADP	18	
+18	police			nmod	NOUN	16	17
+19	.			punct	PUNCT	3	
+Il est inconcevable qu' une chose pareille puisse se produire dans l' enceinte d' un commissariat de police . 
+
+0				n/a	n/a	-1	5
+1	Cette			det	DET	2	
+2	fonctionnalité			nsubj	NOUN	5	1
+3	n'			neg	PART	5	
+4	est			cop	VERB	5	
+5	accessible			root	ADJ	0	2,3,4,6,13,17
+6	qu'			expl	SCONJ	5	
+7	à			mwe	ADP	9	
+8	le			det	DET	9	
+9	travers			case	NOUN	13	7,8,10
+10	de			mwe	ADP	9	
+11	la			det	DET	13	
+12	nouvelle			amod	ADJ	13	
+13	version			nmod	NOUN	5	9,11,12,15
+14	de			case	ADP	15	
+15	Google			nmod	PROPN	13	14,16
+16	Analytics			name	PROPN	15	
+17	.			punct	PUNCT	5	
+Cette fonctionnalité n' est accessible qu' à le travers de la nouvelle version de Google Analytics . 
+
+0				n/a	n/a	-1	8
+1	Un			det	DET	2	
+2	don			nsubj	NOUN	8	1,5
+3	de			case	ADP	5	
+4	10			nummod	NUM	5	
+5	€			nmod	SYM	2	3,4
+6	ne			neg	PART	8	
+7	vous			iobj	PRON	8	
+8	coûte			root	VERB	0	2,6,7,9,11,13
+9	que			expl	SCONJ	8	
+10	3			nummod	NUM	11	
+11	€			dobj	SYM	8	10,12
+12	40			nummod	NUM	11	
+13	.			punct	PUNCT	8	
+Un don de 10 € ne vous coûte que 3 € 40 . 
+
+0				n/a	n/a	-1	16
+1	Pour			mark	ADP	2	
+2	résumer			advcl	VERB	16	1
+3	,			punct	PUNCT	16	
+4	sous			case	ADP	6	
+5	des			det	DET	6	
+6	allures			nmod	NOUN	16	4,5,7
+7	alternatives			amod	ADJ	6	8,9
+8	et			cc	CONJ	7	
+9	conviviales			conj	ADJ	7	
+10	ce			det	DET	11	
+11	restaurant			nsubj	NOUN	16	10
+12	n'			neg	PART	16	
+13	est			cop	VERB	16	
+14	qu'			expl	SCONJ	16	
+15	une			det	DET	16	
+16	supercherie			root	NOUN	0	2,3,6,11,12,13,14,15,22,33
+17	qui			nsubj	PRON	22	
+18	va			aux	AUX	22	
+19	non			neg	ADV	20	
+20	seulement			advmod	ADV	22	19
+21	vous			nsubj	PRON	23	
+22	faire			acl	VERB	16	17,18,20,23,27,30
+23	passer			ccomp	VERB	22	21,25
+24	une			det	DET	25	
+25	soirée			dobj	NOUN	23	24,26
+26	médiocre			amod	ADJ	25	
+27	mais			cc	CONJ	22	
+28	aussi			advmod	ADV	30	
+29	bien			advmod	ADV	30	
+30	entammer			conj	VERB	22	28,29,32
+31	votre			nmod	DET	32	
+32	portefeuille			dobj	NOUN	30	31
+33	.			punct	PUNCT	16	
+Pour résumer , sous des allures alternatives et conviviales ce restaurant n' est qu' une supercherie qui va non seulement vous faire passer une soirée médiocre mais aussi bien entammer votre portefeuille . 
+
+0				n/a	n/a	-1	3
+1	Il			nsubj	PRON	3	
+2	a			aux	AUX	3	
+3	défini			root	VERB	0	1,2,4,6,11,13,36
+4	Murray			dobj	PROPN	3	
+5	comme			case	ADP	6	
+6	étant			acl	VERB	3	5,9
+7	«			punct	PUNCT	9	
+8	sans			case	ADP	9	
+9	repère			nmod	NOUN	6	7,8,10
+10	»			punct	PUNCT	9	
+11	et			cc	CONJ	3	
+12	a			aux	AUX	13	
+13	insisté			conj	VERB	3	12,16
+14	sur			case	ADP	16	
+15	le			det	DET	16	
+16	fait			nmod	NOUN	13	14,15,20
+17	qu'			mark	SCONJ	20	
+18	il			expl	PRON	20	
+19	était			cop	VERB	20	
+20	impossible			ccomp	ADJ	16	17,18,19,26
+21	que			expl	SCONJ	26	
+22	Michael			nsubj	PROPN	26	23
+23	Jackson			name	PROPN	22	
+24	se			dobj	PRON	26	
+25	soit			aux	AUX	26	
+26	injecté			csubj	VERB	20	21,22,24,25,27,29,33
+27	lui-même			nmod	ADV	26	
+28	la			det	DET	29	
+29	dose			dobj	NOUN	26	28,30
+30	fatale			amod	ADJ	29	
+31	comme			case	ADP	33	
+32	le			dobj	PRON	33	
+33	prétend			acl	VERB	26	31,32,35
+34	la			det	DET	35	
+35	défense			nsubj	NOUN	33	34
+36	.			punct	PUNCT	3	
+Il a défini Murray comme étant « sans repère » et a insisté sur le fait qu' il était impossible que Michael Jackson se soit injecté lui-même la dose fatale comme le prétend la défense . 
+
+0				n/a	n/a	-1	3
+1	Ou			mwe	ADP	2	
+2	bien			advmod	ADV	3	1
+3	est			root	VERB	0	2,4,7,21,22
+4	-ce			nsubj	PRON	3	
+5	qu'			mark	SCONJ	7	
+6	ils			nsubj	PRON	7	
+7	parlent			ccomp	VERB	3	5,6,10
+8	de			case	ADP	10	
+9	les			det	DET	10	
+10	richesses			nmod	NOUN	7	8,9,13
+11	de			case	ADP	13	
+12	ce			det	DET	13	
+13	pays			nmod	NOUN	10	11,12,17
+14	dont			iobj	PRON	17	
+15	nous			nsubj	PRON	17	
+16	ne			neg	PART	17	
+17	voyons			acl	VERB	13	14,15,16,18,20
+18	que			expl	SCONJ	17	
+19	les			det	DET	20	
+20	miettes			dobj	NOUN	17	19
+21	?			punct	PUNCT	3	
+22	"			punct	PUNCT	3	
+Ou bien est -ce qu' ils parlent de les richesses de ce pays dont nous ne voyons que les miettes ? " 
+
+0				n/a	n/a	-1	4
+1	Que			expl	SCONJ	4	
+2	Dieu			nsubj	PROPN	4	
+3	lui			iobj	PRON	4	
+4	vienne			root	VERB	0	1,2,3,6,7
+5	en			case	ADP	6	
+6	aide			nmod	NOUN	4	5
+7	!			punct	PUNCT	4	
+Que Dieu lui vienne en aide ! 
+
+0				n/a	n/a	-1	11
+1	De			case	ADP	4	
+2	l'			det	DET	4	
+3	autre			amod	ADJ	4	
+4	côté			nmod	NOUN	11	1,2,3
+5	,			punct	PUNCT	11	
+6	la			det	DET	7	
+7	guerre			nsubj	NOUN	11	6
+8	n'			neg	PART	11	
+9	est			cop	VERB	11	
+10	pas			neg	ADV	11	
+11	finie			root	ADJ	0	4,5,7,8,9,10,12,13,20,39
+12	,			punct	PUNCT	11	
+13	car			cc	CONJ	11	
+14	les			det	DET	15	
+15	tribus			nsubj	NOUN	20	14,16,18
+16	proches			amod	ADJ	15	
+17	de			case	ADP	18	
+18	Kadhafi			nmod	PROPN	15	17
+19	ne			neg	PART	20	
+20	jurent			conj	VERB	11	15,19,21,24,25,27
+21	que			expl	SCONJ	20	
+22	par			case	ADP	24	
+23	la			det	DET	24	
+24	vengeance			nmod	NOUN	20	22,23
+25	et			cc	CONJ	20	
+26	n'			neg	PART	27	
+27	attendent			conj	VERB	20	26,28,30,35
+28	que			expl	SCONJ	27	
+29	le			det	DET	30	
+30	départ			dobj	NOUN	27	29,33
+31	de			case	ADP	33	
+32	l'			det	DET	33	
+33	Otan			nmod	PROPN	30	31,32
+34	pour			mark	ADP	35	
+35	passer			advcl	VERB	27	34,38
+36	à			case	ADP	38	
+37	l'			det	DET	38	
+38	action			nmod	NOUN	35	36,37
+39	.			punct	PUNCT	11	
+De l' autre côté , la guerre n' est pas finie , car les tribus proches de Kadhafi ne jurent que par la vengeance et n' attendent que le départ de l' Otan pour passer à l' action . 
+
+0				n/a	n/a	-1	8
+1	En			mwe	ADP	2	
+2	effet			advmod	NOUN	8	1
+3	,			punct	PUNCT	8	
+4	comment			advmod	ADV	8	
+5	peut			aux	AUX	8	
+6	-il			nsubj	PRON	8	
+7	l'			dobj	PRON	8	
+8	être			root	VERB	0	2,3,4,5,6,7,11,32
+9	dans			case	ADP	11	
+10	un			det	DET	11	
+11	processus			nmod	NOUN	8	9,10,16
+12	où			advmod	PRON	16	
+13	il			nsubj	PRON	16	
+14	est			cop	VERB	16	
+15	maintenant			advmod	ADV	16	
+16	certain			acl	ADJ	11	12,13,14,15,22
+17	qu'			mark	SCONJ	22	
+18	il			nsubjpass	PRON	22	
+19	n'			neg	PART	22	
+20	a			aux	AUX	22	
+21	été			auxpass	AUX	22	
+22	conçu			ccomp	VERB	16	17,18,19,20,21,23,27
+23	que			expl	SCONJ	22	
+24	pour			case	ADP	27	
+25	une			det	DET	27	
+26	seule			amod	ADJ	27	
+27	finalité			nmod	NOUN	22	24,25,26,30
+28	de			case	ADP	30	
+29	le			det	DET	30	
+30	Marketing			nmod	PROPN	27	28,29,31
+31	politique			amod	ADJ	30	
+32	.			punct	PUNCT	8	
+En effet , comment peut -il l' être dans un processus où il est maintenant certain qu' il n' a été conçu que pour une seule finalité de le Marketing politique . 
+
+0				n/a	n/a	-1	43
+1	L'			det	DET	2	
+2	ONU			nsubj	PROPN	22	1,3,6
+3	,			punct	PUNCT	2	
+4	qui			nsubj	PRON	6	
+5	a			aux	AUX	6	
+6	dépêché			acl	VERB	2	4,5,8,10
+7	du			det	DET	8	
+8	personnel			dobj	NOUN	6	7
+9	pour			mark	ADP	10	
+10	assister			advcl	VERB	6	9,12
+11	le			det	DET	12	
+12	gouvernement			dobj	NOUN	10	11,13,16
+13	ougandais			amod	ADJ	12	
+14	dans			case	ADP	16	
+15	son			nmod	DET	16	
+16	évaluation			nmod	NOUN	12	14,15,19
+17	de			case	ADP	19	
+18	les			det	DET	19	
+19	besoins			nmod	NOUN	16	17,18
+20	,			punct	PUNCT	22	
+21	a			aux	AUX	22	
+22	constaté			ccomp	VERB	43	2,20,21,29,40
+23	que			mark	SCONJ	29	
+24	"			punct	PUNCT	29	
+25	les			det	DET	26	
+26	sauveteurs			nsubj	NOUN	29	25
+27	n'			neg	PART	29	
+28	ont			aux	AUX	29	
+29	eu			ccomp	VERB	22	23,24,26,27,28,31,34,36
+30	pour			mark	ADP	31	
+31	dégager			advcl	VERB	29	30,33
+32	les			det	DET	33	
+33	survivants			dobj	NOUN	31	32
+34	que			expl	SCONJ	29	
+35	des			det	DET	36	
+36	pelles			dobj	NOUN	29	35,37,39
+37	ou			cc	CONJ	36	
+38	des			det	DET	39	
+39	bêches			conj	NOUN	36	38
+40	"			punct	PUNCT	22	
+41	,			punct	PUNCT	43	
+42	a			aux	AUX	43	
+43	rapporté			root	VERB	0	22,41,42,44,46
+44	Mme			nsubj	NOUN	43	45
+45	Byrs			name	PROPN	44	
+46	.			punct	PUNCT	43	
+L' ONU , qui a dépêché du personnel pour assister le gouvernement ougandais dans son évaluation de les besoins , a constaté que " les sauveteurs n' ont eu pour dégager les survivants que des pelles ou des bêches " , a rapporté Mme Byrs . 
+
+0				n/a	n/a	-1	7
+1	Le			det	DET	2	
+2	responsable			nsubj	NOUN	7	1
+3	n'			neg	PART	7	
+4	est			cop	VERB	7	
+5	que			expl	SCONJ	7	
+6	rarement			advmod	ADV	7	
+7	joignable			root	ADJ	0	2,3,4,5,6,8,10,27
+8	et			cc	CONJ	7	
+9	nous			iobj	PRON	10	
+10	fixe			conj	VERB	7	9,12
+11	des			det	DET	12	
+12	dates			dobj	NOUN	10	11,14,19
+13	d'			case	ADP	14	
+14	interventions			nmod	NOUN	12	13
+15	qui			nsubj	PRON	19	
+16	ne			neg	PART	19	
+17	sont			auxpass	AUX	19	
+18	jamais			neg	ADV	19	
+19	respectées			acl	VERB	12	15,16,17,18,23
+20	sans			mark	ADP	23	21
+21	même			advmod	ADV	20	
+22	nous			dobj	PRON	23	
+23	prévenir			advcl	VERB	19	20,22,24,26
+24	ou			mark	CONJ	23	
+25	s'			dobj	PRON	26	
+26	excuser			conj	VERB	23	25
+27	.			punct	PUNCT	7	
+Le responsable n' est que rarement joignable et nous fixe des dates d' interventions qui ne sont jamais respectées sans même nous prévenir ou s' excuser . 
+
+0				n/a	n/a	-1	11
+1	Seulement			advmod	ADV	11	
+2	,			punct	PUNCT	11	
+3	jusqu'			case	ADP	6	
+4	aux			case	ADP	6	
+5	derniers			amod	ADJ	6	
+6	évènements			nmod	NOUN	11	3,4,5
+7	,			punct	PUNCT	11	
+8	elle			nsubj	PRON	11	
+9	ne			neg	PART	11	
+10	se			dobj	PRON	11	
+11	traduisait			root	VERB	0	1,2,6,7,8,9,10,12,15,17
+12	que			expl	SCONJ	11	
+13	par			case	ADP	15	
+14	un			det	DET	15	
+15	malaise			nmod	NOUN	11	13,14,16
+16	profond			amod	ADJ	15	
+17	.			punct	PUNCT	11	
+Seulement , jusqu' aux derniers évènements , elle ne se traduisait que par un malaise profond . 
+
+0				n/a	n/a	-1	12
+1	Quant			case	ADV	4	2,3
+2	à			mwe	ADP	1	
+3	les			det	DET	1	
+4	diarrhées			nmod	NOUN	12	1,7
+5	dont			iobj	PRON	7	
+6	on			nsubj	PRON	7	
+7	parle			acl	VERB	4	5,6,8
+8	tant			advmod	ADV	7	
+9	,			punct	PUNCT	12	
+10	elles			nsubj	PRON	12	
+11	ne			neg	PART	12	
+12	concernent			root	VERB	0	4,9,10,11,13,15,19,24,25
+13	que			expl	SCONJ	12	
+14	10			nummod	NUM	15	
+15	%			dobj	SYM	12	14,18
+16	de			case	ADP	18	
+17	les			det	DET	18	
+18	patients			nmod	NOUN	15	16,17
+19	,			punct	PUNCT	12	
+20	ce			nsubj	PRON	24	21
+21	qui			mwe	PRON	20	
+22	est			cop	VERB	24	
+23	peu			advmod	ADV	24	
+24	élevé			conj	ADJ	12	20,22,23
+25	.			punct	PUNCT	12	
+Quant à les diarrhées dont on parle tant , elles ne concernent que 10 % de les patients , ce qui est peu élevé . 
+
+0				n/a	n/a	-1	2
+1	Vous			nsubj	PRON	2	
+2	relevez			root	VERB	0	1,4,40
+3	certains			det	DET	4	
+4	faits			dobj	NOUN	2	3,6,7,10
+5	mal			advmod	ADV	6	
+6	connus			amod	ADJ	4	5
+7	,			punct	PUNCT	4	
+8	comme			case	ADP	10	
+9	le			nsubj	PRON	10	
+10	fait			nmod	NOUN	4	8,9,20
+11	que			mark	SCONJ	20	
+12	le			det	DET	13	
+13	GIEC			nsubj	X	20	12
+14	n'			neg	PART	20	
+15	est			cop	VERB	20	
+16	en			mwe	ADP	17	
+17	fait			advmod	NOUN	20	16
+18	qu'			expl	SCONJ	20	
+19	une			det	DET	20	
+20	sorte			ccomp	NOUN	10	11,13,14,15,17,18,19,22,27,28,29,32
+21	d'			case	ADP	22	
+22	Argus			nmod	PROPN	20	21,25
+23	de			case	ADP	25	
+24	la			det	DET	25	
+25	presse			nmod	NOUN	22	23,24,26
+26	climatologique			amod	ADJ	25	
+27	,			punct	PUNCT	20	
+28	et			cc	CONJ	20	
+29	pas			neg	ADV	20	
+30	le			det	DET	32	
+31	grand			amod	ADJ	32	
+32	réseau			conj	NOUN	20	30,31,34,36
+33	de			case	ADP	34	
+34	recherches			nmod	NOUN	32	33
+35	qu'			dobj	PRON	36	
+36	imagine			acl	VERB	32	35,39
+37	le			det	DET	39	
+38	grand			amod	ADJ	39	
+39	public			nsubj	NOUN	36	37,38
+40	.			punct	PUNCT	2	
+Vous relevez certains faits mal connus , comme le fait que le GIEC n' est en fait qu' une sorte d' Argus de la presse climatologique , et pas le grand réseau de recherches qu' imagine le grand public . 
+
+0				n/a	n/a	-1	12
+1	Pour			case	ADP	2	
+2	rappel			nmod	NOUN	12	1
+3	,			punct	PUNCT	12	
+4	les			det	DET	5	
+5	chaudières			nsubj	NOUN	12	4,7
+6	à			case	ADP	7	
+7	granulés			nmod	NOUN	5	6,9
+8	de			case	ADP	9	
+9	bois			nmod	NOUN	7	8
+10	sont			cop	VERB	12	
+11	un			det	DET	12	
+12	moyen			root	ADJ	0	2,3,5,10,11,14,15,18,20,32,34,36,37,55
+13	de			case	ADP	14	
+14	chauffage			nmod	NOUN	12	13
+15	écologique			amod	ADJ	12	16,17
+16	et			cc	CONJ	15	
+17	économique			conj	ADJ	15	
+18	,			punct	PUNCT	12	
+19	véritable			amod	ADJ	20	
+20	alternative			appos	NOUN	12	19,23
+21	à			case	ADP	23	
+22	le			det	DET	23	
+23	fioul			nmod	NOUN	20	21,22,24,27,28,31
+24	,			punct	PUNCT	23	
+25	à			case	ADP	27	
+26	le			det	DET	27	
+27	gaz			conj	NOUN	23	25,26
+28	et			cc	CONJ	23	
+29	à			case	ADP	31	
+30	l'			det	DET	31	
+31	électricité			conj	NOUN	23	29,30
+32	,			punct	PUNCT	12	
+33	100			nummod	NUM	34	
+34	%			conj	NOUN	12	33,35
+35	automatique			amod	ADJ	34	
+36	,			punct	PUNCT	12	
+37	doté			acl	VERB	12	40,46,48
+38	d'			case	ADP	40	
+39	une			det	DET	40	
+40	autonomie			nmod	NOUN	37	38,39,43
+41	de			case	ADP	43	
+42	1			nummod	NUM	43	44,45
+43	an			nmod	NOUN	40	41,42
+44	ou			cc	CONJ	42	
+45	plus			conj	ADV	42	
+46	et			cc	CONJ	37	
+47	ne			neg	PART	48	
+48	nécessitant			conj	VERB	37	47,49,51,54
+49	que			expl	SCONJ	48	
+50	quelques			det	DET	51	
+51	m2			dobj	X	48	50
+52	à			case	ADP	54	
+53	le			det	DET	54	
+54	sol			nmod	NOUN	48	52,53
+55	.			punct	PUNCT	12	
+Pour rappel , les chaudières à granulés de bois sont un moyen de chauffage écologique et économique , véritable alternative à le fioul , à le gaz et à l' électricité , 100 % automatique , doté d' une autonomie de 1 an ou plus et ne nécessitant que quelques m2 à le sol . 
+
+0				n/a	n/a	-1	22
+1	En			case	ADP	4	
+2	d'			det	DET	4	
+3	autres			amod	ADJ	4	
+4	termes			nmod	NOUN	22	1,2,3
+5	,			punct	PUNCT	22	
+6	notre			nmod	DET	7	
+7	balance			nsubj	NOUN	22	6,8,9,14
+8	commerciale			amod	ADJ	7	
+9	,			punct	PUNCT	7	
+10	dont			iobj	PRON	14	
+11	le			det	DET	12	
+12	déficit			nsubj	NOUN	14	11
+13	devrait			aux	AUX	14	
+14	atteindre			acl	VERB	7	10,12,13,16,18
+15	75			nummod	NUM	16	
+16	milliards			nummod	NUM	14	15
+17	cette			det	DET	18	
+18	année			dobj	NOUN	14	17
+19	,			punct	PUNCT	22	
+20	ne			neg	PART	22	
+21	pourra			aux	AUX	22	
+22	espérer			root	VERB	0	4,5,7,19,20,21,24,66
+23	se			dobj	PRON	24	
+24	rééquilibrer			xcomp	VERB	22	23,25,35
+25	que			expl	SCONJ	24	
+26	si			mark	SCONJ	35	
+27	l'			det	DET	28	
+28	Europe			nsubj	PROPN	35	27,32
+29	«			punct	PUNCT	32	
+30	trop			advmod	ADV	31	
+31	peu			advmod	ADV	32	30
+32	protectrice			amod	ADJ	28	29,31,33
+33	»			punct	PUNCT	32	
+34	se			dobj	PRON	35	
+35	bat			advcl	VERB	24	26,28,34,37
+36	pour			mark	ADP	37	
+37	obtenir			advcl	VERB	35	36,40
+38	les			det	DET	40	
+39	mêmes			amod	ADJ	40	
+40	règles			dobj	NOUN	37	38,39,43,46
+41	de			case	ADP	43	
+42	le			det	DET	43	
+43	jeu			nmod	NOUN	40	41,42
+44	pour			case	ADP	46	
+45	les			det	DET	46	
+46	entreprises			nmod	NOUN	40	44,45,48,57
+47	qui			nsubj	PRON	48	
+48	importent			acl	VERB	46	47,50
+49	leurs			nmod	DET	50	
+50	produits			dobj	NOUN	48	49,54
+51	sur			case	ADP	54	
+52	le			det	DET	54	
+53	Vieux			amod	ADJ	54	
+54	Continent			nmod	NOUN	50	51,52,53
+55	que			mark	SCONJ	57	
+56	pour			case	ADP	57	
+57	celles			nmod	PRON	46	55,56,59
+58	qui			nsubj	PRON	59	
+59	cherchent			acl	VERB	57	58,61
+60	à			mark	ADP	61	
+61	exporter			acl	VERB	59	60,65
+62	vers			case	ADP	65	
+63	les			det	DET	65	
+64	nouveaux			amod	ADJ	65	
+65	marchés			nmod	NOUN	61	62,63,64
+66	.			punct	PUNCT	22	
+En d' autres termes , notre balance commerciale , dont le déficit devrait atteindre 75 milliards cette année , ne pourra espérer se rééquilibrer que si l' Europe « trop peu protectrice » se bat pour obtenir les mêmes règles de le jeu pour les entreprises qui importent leurs produits sur le Vieux Continent que pour celles qui cherchent à exporter vers les nouveaux marchés . 
+
+0				n/a	n/a	-1	22
+1	Que			expl	SCONJ	5	
+2	cet			det	DET	3	
+3	acte			nsubj	NOUN	5	2
+4	se			dobj	PRON	5	
+5	perpétue			csubj	VERB	22	1,3,4,6,8
+6	et			cc	CONJ	5	
+7	se			dobj	PRON	8	
+8	transmet			conj	VERB	5	7,10,12
+9	de			case	ADP	10	
+10	génération			nmod	NOUN	8	9
+11	en			case	ADP	12	
+12	génération			nmod	NOUN	8	11
+13	...			punct	PUNCT	22	
+14	la			det	DET	15	
+15	cérémonie			nsubj	NOUN	22	14,16,19
+16	formelle			amod	ADJ	15	
+17	de			case	ADP	19	
+18	l'			det	DET	19	
+19	allégeance			nmod	NOUN	15	17,18
+20	...			punct	PUNCT	22	
+21	sont			cop	VERB	22	
+22	parties			root	NOUN	0	5,13,15,20,21,23,26,33
+23	intégrantes			amod	ADJ	22	
+24	de			case	ADP	26	
+25	les			det	DET	26	
+26	institutions			nmod	NOUN	22	24,25,29,32
+27	de			case	ADP	29	
+28	le			det	DET	29	
+29	Royaume			nmod	PROPN	26	27,28
+30	de			case	ADP	32	
+31	le			det	DET	32	
+32	Maroc			nmod	PROPN	26	30,31
+33	.			punct	PUNCT	22	
+Que cet acte se perpétue et se transmet de génération en génération ... la cérémonie formelle de l' allégeance ... sont parties intégrantes de les institutions de le Royaume de le Maroc . 
+
+0				n/a	n/a	-1	7
+1	Barracuda			nsubj	PROPN	7	
+2	n'			neg	PART	7	
+3	est			cop	VERB	7	
+4	pas			neg	ADV	5	
+5	qu'			expl	SCONJ	7	4
+6	une			det	DET	7	
+7	montagne			root	NOUN	0	1,2,3,5,6,9,10,14,38
+8	de			case	ADP	9	
+9	muscles			nmod	NOUN	7	8
+10	,			punct	PUNCT	7	
+11	c'			nsubj	PRON	14	
+12	est			cop	VERB	14	
+13	un			det	DET	14	
+14	expert			conj	NOUN	7	11,12,13,16,17
+15	en			case	ADP	16	
+16	mécanique			nmod	NOUN	14	15
+17	capable			amod	ADJ	14	19
+18	de			mark	ADP	19	
+19	construire			acl	VERB	17	18,21,27
+20	un			det	DET	21	
+21	char			dobj	NOUN	19	20,23
+22	d'			case	ADP	23	
+23	assaut			nmod	NOUN	21	22
+24	avec			case	ADP	27	
+25	une			det	DET	27	
+26	vieille			amod	ADJ	27	
+27	voiture			nmod	NOUN	19	24,25,26,28,30,33,35
+28	,			punct	PUNCT	27	
+29	une			det	DET	30	
+30	bobine			conj	NOUN	27	29,32
+31	de			case	ADP	32	
+32	scotch			nmod	NOUN	30	31
+33	et			cc	CONJ	27	
+34	quelques			det	DET	35	
+35	morceaux			conj	NOUN	27	34,37
+36	de			case	ADP	37	
+37	ferraille			nmod	NOUN	35	36
+38	.			punct	PUNCT	7	
+Barracuda n' est pas qu' une montagne de muscles , c' est un expert en mécanique capable de construire un char d' assaut avec une vieille voiture , une bobine de scotch et quelques morceaux de ferraille . 
+
+0				n/a	n/a	-1	15
+1	Là			advmod	ADV	15	4
+2	où			advmod	PRON	4	
+3	vous			nsubj	PRON	4	
+4	voyez			acl	VERB	1	2,3,6
+5	du			det	DET	6	
+6	patriotisme			dobj	NOUN	4	5,7
+7	viril			amod	ADJ	6	
+8	,			punct	PUNCT	15	
+9	le			det	DET	10	
+10	reste			nsubj	NOUN	15	9,13
+11	de			case	ADP	13	
+12	le			det	DET	13	
+13	monde			nmod	NOUN	10	11,12
+14	ne			neg	PART	15	
+15	voit			root	VERB	0	1,8,10,14,16,19,20
+16	que			expl	SCONJ	15	
+17	de			det	DET	19	
+18	l'			det	DET	19	
+19	immaturité			dobj	NOUN	15	17,18
+20	.			punct	PUNCT	15	
+Là où vous voyez du patriotisme viril , le reste de le monde ne voit que de l' immaturité . 
+
+0				n/a	n/a	-1	5
+1	La			det	DET	2	
+2	France			nsubj	PROPN	5	1
+3	n'			neg	PART	5	
+4	a			aux	AUX	5	
+5	conclu			root	VERB	0	2,3,4,8,9,12,48
+6	avec			case	ADP	8	
+7	la			det	DET	8	
+8	Polynésie			nmod	PROPN	5	6,7
+9	qu'			expl	SCONJ	5	
+10	une			det	DET	12	
+11	seule			amod	ADJ	12	
+12	Convention			conj	NOUN	5	10,11,13,14,15,23
+13	fiscale			amod	ADJ	12	
+14	internationale			amod	ADJ	12	
+15	signée			acl	VERB	12	18
+16	le			det	DET	18	
+17	28			nummod	NUM	18	
+18	mars			nmod	NOUN	15	16,17,19
+19	1957			nmod	NUM	18	
+20	relative			case	ADJ	23	21
+21	à			mwe	ADP	20	
+22	l'			det	DET	23	
+23	élimination			nmod	NOUN	12	20,22,27,28,31
+24	de			case	ADP	27	
+25	les			det	DET	27	
+26	doubles			amod	ADJ	27	
+27	impositions			nmod	NOUN	23	24,25,26
+28	et			cc	CONJ	23	
+29	à			case	ADP	31	
+30	l'			det	DET	31	
+31	établissement			conj	NOUN	23	29,30,34
+32	de			case	ADP	34	
+33	les			det	DET	34	
+34	règles			nmod	NOUN	31	32,33,36,41
+35	d'			case	ADP	36	
+36	assistance			nmod	NOUN	34	35,37,38
+37	mutuelle			amod	ADJ	36	
+38	administrative			amod	ADJ	36	
+39	pour			case	ADP	41	
+40	l'			det	DET	41	
+41	imposition			nmod	NOUN	34	39,40,44
+42	de			case	ADP	44	
+43	les			det	DET	44	
+44	revenus			nmod	NOUN	41	42,43,46
+45	de			case	ADP	46	
+46	capitaux			nmod	NOUN	44	45,47
+47	mobiliers			amod	ADJ	46	
+48	.			punct	PUNCT	5	
+La France n' a conclu avec la Polynésie qu' une seule Convention fiscale internationale signée le 28 mars 1957 relative à l' élimination de les doubles impositions et à l' établissement de les règles d' assistance mutuelle administrative pour l' imposition de les revenus de capitaux mobiliers . 
+
+0				n/a	n/a	-1	3
+1	Nous			nsubj	PRON	3	
+2	avons			aux	AUX	3	
+3	confié			root	VERB	0	1,2,5,8,14,19,20
+4	à			case	ADP	5	
+5	Blue			nmod	PROPN	3	4,6
+6	Lagoon			name	PROPN	5	
+7	l'			det	DET	8	
+8	animation			dobj	NOUN	3	7,11
+9	de			case	ADP	11	
+10	notre			nmod	DET	11	
+11	soirée			nmod	NOUN	8	9,10,13
+12	de			case	ADP	13	
+13	mariage			nmod	NOUN	11	12
+14	et			cc	CONJ	3	
+15	ne			neg	PART	19	
+16	pouvons			aux	AUX	19	
+17	que			expl	SCONJ	19	
+18	le			dobj	PRON	19	
+19	recommander			conj	VERB	3	15,16,17,18
+20	.			punct	PUNCT	3	
+Nous avons confié à Blue Lagoon l' animation de notre soirée de mariage et ne pouvons que le recommander . 
+
+0				n/a	n/a	-1	8
+1	Bien			mwe	ADV	2	
+2	sur			advmod	ADP	8	1
+3	,			punct	PUNCT	8	
+4	je			nsubj	PRON	8	
+5	ne			neg	PART	8	
+6	pouvais			aux	AUX	8	
+7	que			expl	SCONJ	8	
+8	regretter			root	VERB	0	2,3,4,5,6,7,10,11,12,14,28
+9	ma			nmod	DET	10	
+10	participation			dobj	NOUN	8	9
+11	,			punct	PUNCT	8	
+12	mais			cc	CONJ	8	
+13	je			nsubj	PRON	14	
+14	connaissais			conj	VERB	8	13,15,17,23
+15	trop			advmod	ADV	14	
+16	les			det	DET	17	
+17	enjeux			dobj	NOUN	14	16,18,20
+18	et			cc	CONJ	17	
+19	les			det	DET	20	
+20	dessous			conj	NOUN	17	19
+21	pour			mark	ADP	23	
+22	être			auxpass	AUX	23	
+23	surpris			acl	VERB	14	21,22,27
+24	par			case	ADP	27	
+25	de			det	DET	27	
+26	pareilles			amod	ADJ	27	
+27	situations			nmod	NOUN	23	24,25,26
+28	.			punct	PUNCT	8	
+Bien sur , je ne pouvais que regretter ma participation , mais je connaissais trop les enjeux et les dessous pour être surpris par de pareilles situations . 
+
+0				n/a	n/a	-1	9
+1	Comme			case	ADP	2	
+2	documents			nmod	NOUN	9	1,4
+3	d'			case	ADP	4	
+4	orientation			nmod	NOUN	2	3
+5	,			punct	PUNCT	9	
+6	nous			nsubjpass	PRON	9	
+7	n'			neg	PART	9	
+8	étions			auxpass	AUX	9	
+9	munis			root	VERB	0	2,5,6,7,8,10,13,16,35
+10	que			expl	SCONJ	9	
+11	de			det	DET	13	
+12	vieilles			amod	ADJ	13	
+13	cartes			dobj	NOUN	9	11,12,14,15,18
+14	topographiques			amod	ADJ	13	
+15	est-allemandes			compound	NOUN	13	
+16	,			punct	PUNCT	9	
+17	si			advmod	ADV	18	
+18	falsifiées			amod	ADJ	13	17,26
+19	que			mark	SCONJ	26	
+20	nous			nsubj	PRON	26	
+21	ne			neg	PART	26	
+22	pouvions			aux	AUX	26	
+23	pratiquement			advmod	ADV	26	
+24	rien			dobj	PRON	26	
+25	y			iobj	PRON	26	
+26	reconnaître			advcl	VERB	18	19,20,21,22,23,24,25,28
+27	de			case	ADP	28	
+28	ce			nmod	PRON	26	27,31
+29	que			dobj	PRON	31	
+30	nous			nsubj	PRON	31	
+31	découvrions			acl	VERB	28	29,30,34
+32	sur			case	ADP	34	
+33	le			det	DET	34	
+34	terrain			nmod	NOUN	31	32,33
+35	.			punct	PUNCT	9	
+Comme documents d' orientation , nous n' étions munis que de vieilles cartes topographiques est-allemandes , si falsifiées que nous ne pouvions pratiquement rien y reconnaître de ce que nous découvrions sur le terrain . 
+
+0				n/a	n/a	-1	2
+1	En			dep	ADP	2	
+2	résumé			root	NOUN	0	1,3,4,9,10,11,21
+3	:			punct	PUNCT	2	
+4	escrocs			dep	NOUN	2	5,6,7,8
+5	,			punct	PUNCT	4	
+6	menteurs			conj	NOUN	4	
+7	,			punct	PUNCT	4	
+8	voleurs			conj	NOUN	4	
+9	,			punct	PUNCT	2	
+10	......			punct	PUNCT	2	
+11	FUYEZ			parataxis	VERB	2	13,14,17
+12	CE			det	DET	13	
+13	GARAGE			dobj	NOUN	11	12
+14	OU			cc	CONJ	11	
+15	VOUS			nsubj	PRON	17	
+16	N'			neg	ADV	17	
+17	AUREZ			conj	VERB	11	15,16,18,20
+18	QUE			expl	SCONJ	17	
+19	DES			det	DET	20	
+20	ENNUIS			dobj	NOUN	17	19
+21	!			punct	PUNCT	2	
+En résumé : escrocs , menteurs , voleurs , ...... FUYEZ CE GARAGE OU VOUS N' AUREZ QUE DES ENNUIS ! 
+
+0				n/a	n/a	-1	3
+1	Le			det	DET	2	
+2	principe			nsubj	NOUN	3	1
+3	est			root	VERB	0	2,11,16
+4	que			mark	SCONJ	11	
+5	deux			nummod	NUM	6	
+6	départs			nsubj	NOUN	11	5,9
+7	à			case	ADP	9	
+8	la			det	DET	9	
+9	retraite			nmod	NOUN	6	7,8
+10	n'			neg	PART	11	
+11	entraînent			ccomp	VERB	3	4,6,10,12,13,15
+12	plus			advmod	ADV	11	
+13	qu'			expl	SCONJ	11	
+14	un			det	DET	15	
+15	recrutement			dobj	NOUN	11	14
+16	.			punct	PUNCT	3	
+Le principe est que deux départs à la retraite n' entraînent plus qu' un recrutement . 
+
+0				n/a	n/a	-1	26
+1	Si			mark	SCONJ	13	
+2	les			det	DET	3	
+3	Tunisiens			nsubj	PROPN	13	2,5
+4	,			punct	PUNCT	26	
+5	autocentrés			acl	VERB	3	9
+6	sur			case	ADP	9	
+7	leur			nmod	DET	9	
+8	propre			amod	ADJ	9	
+9	processus			nmod	NOUN	5	6,7,8,10
+10	postrévolutionnaire			amod	ADJ	9	
+11	,			punct	PUNCT	26	
+12	ne			neg	PART	13	
+13	portent			advcl	VERB	26	1,3,12,14,16,20,22
+14	qu'			expl	SCONJ	13	
+15	un			det	DET	16	
+16	intérêt			dobj	NOUN	13	15,17
+17	distrait			amod	ADJ	16	
+18	à			case	ADP	20	
+19	les			det	DET	20	
+20	échéances			nmod	NOUN	13	18,19,21
+21	françaises			amod	ADJ	20	
+22	,			punct	PUNCT	13	
+23	il			nsubj	PRON	26	
+24	n'			neg	PART	26	
+25	en			iobj	PRON	26	
+26	va			root	VERB	0	4,11,13,23,24,25,27,29,32,37
+27	pas			neg	ADV	26	
+28	de			case	ADP	29	
+29	même			amod	ADJ	26	28
+30	de			case	ADP	32	
+31	les			det	DET	32	
+32	Algériens			nmod	PROPN	26	30,31,33,36
+33	et			cc	CONJ	32	
+34	de			case	ADP	36	
+35	les			det	DET	36	
+36	Marocains			conj	PROPN	32	34,35
+37	.			punct	PUNCT	26	
+Si les Tunisiens , autocentrés sur leur propre processus postrévolutionnaire , ne portent qu' un intérêt distrait à les échéances françaises , il n' en va pas de même de les Algériens et de les Marocains . 
+
+0				n/a	n/a	-1	6
+1	Hier			advmod	ADV	6	
+2	,			punct	PUNCT	6	
+3	Marseille			nsubj	PROPN	6	
+4	n'			neg	PART	6	
+5	a			aux	AUX	6	
+6	fait			root	VERB	0	1,2,3,4,5,7,8,13,22
+7	que			expl	SCONJ	6	
+8	réduire			xcomp	VERB	6	10
+9	son			nmod	DET	10	
+10	retard			dobj	NOUN	8	9,12
+11	sur			case	ADP	12	
+12	Lille			nmod	PROPN	10	11,19
+13	,			punct	PUNCT	6	
+14	désormais			advmod	ADV	19	
+15	avec			case	ADP	19	
+16	plus			advmod	ADV	18	17
+17	qu'			mwe	SCONJ	16	
+18	un			nummod	NUM	19	16
+19	point			nmod	NOUN	12	14,15,18,21
+20	d'			case	ADP	21	
+21	avance			nmod	NOUN	19	20
+22	.			punct	PUNCT	6	
+Hier , Marseille n' a fait que réduire son retard sur Lille , désormais avec plus qu' un point d' avance . 
+

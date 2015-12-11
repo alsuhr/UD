@@ -1,0 +1,169 @@
+0				n/a	n/a	-1	3
+1	Vous			nsubj	PRON	3	
+2	n'			neg	PART	3	
+3	avez			root	VERB	0	1,2,4,6,9,12,20
+4	qu'			expl	SCONJ	3	
+5	à			mark	ADP	6	
+6	apporter			acl	VERB	3	5,8
+7	vos			nmod	DET	8	
+8	valises			dobj	NOUN	6	7
+9	,			punct	PUNCT	3	
+10	tout			nsubjpass	PRON	12	
+11	est			auxpass	AUX	12	
+12	pensé			conj	VERB	3	10,11,15
+13	pour			case	ADP	15	
+14	un			det	DET	15	
+15	séjour			nmod	NOUN	12	13,14,19
+16	de			case	ADP	19	
+17	les			det	DET	19	
+18	plus			advmod	ADV	19	
+19	agréable			amod	ADJ	15	16,17,18
+20	.			punct	PUNCT	3	
+Vous n' avez qu' à apporter vos valises , tout est pensé pour un séjour de les plus agréable . 
+
+0				n/a	n/a	-1	6
+1	A			case	ADP	2	
+2	cela			nmod	PRON	6	1
+3	nous			nsubj	PRON	6	
+4	ne			neg	PART	6	
+5	pouvons			aux	AUX	6	
+6	répondre			root	VERB	0	2,3,4,5,7,9,10,11,14
+7	qu'			expl	SCONJ	6	
+8	une			det	DET	9	
+9	chose			dobj	NOUN	6	8
+10	:			punct	PUNCT	6	
+11	encourageons			parataxis	VERB	6	13
+12	les			det	DET	13	
+13	manifestations			dobj	NOUN	11	12
+14	!			punct	PUNCT	6	
+A cela nous ne pouvons répondre qu' une chose : encourageons les manifestations ! 
+
+0				n/a	n/a	-1	9
+1	Pour			case	ADP	3	
+2	les			det	DET	3	
+3	assurances			nmod	NOUN	9	1,2,4
+4	épargne-pension			appos	NOUN	3	
+5	,			punct	PUNCT	9	
+6	le			det	DET	7	
+7	fisc			nsubj	NOUN	9	6
+8	ne			neg	PART	9	
+9	prend			root	VERB	0	3,5,7,8,11,12,14,16,24,29
+10	en			case	ADP	11	
+11	compte			nmod	NOUN	9	10
+12	que			expl	SCONJ	9	
+13	le			det	DET	14	
+14	rendement			dobj	NOUN	9	13,15
+15	garanti			acl	VERB	14	
+16	et			cc	CONJ	9	
+17	l'			det	DET	19	
+18	éventuelle			amod	ADJ	19	
+19	participation			nsubjpass	NOUN	24	17,18,22
+20	à			case	ADP	22	
+21	les			det	DET	22	
+22	bénéfices			nmod	NOUN	19	20,21
+23	est			auxpass	AUX	24	
+24	exemptée			conj	VERB	9	19,23,27
+25	de			case	ADP	27	
+26	l'			det	DET	27	
+27	impôt			nmod	NOUN	24	25,26,28
+28	final			amod	ADJ	27	
+29	.			punct	PUNCT	9	
+Pour les assurances épargne-pension , le fisc ne prend en compte que le rendement garanti et l' éventuelle participation à les bénéfices est exemptée de l' impôt final . 
+
+0				n/a	n/a	-1	4
+1	»			punct	PUNCT	4	
+2	,			punct	PUNCT	4	
+3	Zidane			nsubj	PROPN	4	
+4	répond			root	VERB	0	1,2,3,7,14,15,19,20
+5	dans			case	ADP	7	
+6	un			det	DET	7	
+7	entretien			nmod	NOUN	4	5,6,9
+8	à			mark	ADP	9	
+9	paraître			acl	VERB	7	8,10,13
+10	dimanche			nmod	NOUN	9	
+11	dans			case	ADP	13	
+12	L'			compound	DET	13	
+13	Equipe			nmod	PROPN	9	11,12
+14	:			punct	PUNCT	4	
+15	«			punct	PUNCT	4	
+16	Bien			advmod	ADV	17	
+17	sûr			advmod	ADJ	19	16
+18	que			expl	SCONJ	19	
+19	non			advmod	ADV	4	17,18
+20	.			punct	PUNCT	4	
+» , Zidane répond dans un entretien à paraître dimanche dans L' Equipe : « Bien sûr que non . 
+
+0				n/a	n/a	-1	3
+1	Il			nsubj	PRON	3	
+2	ne			neg	PART	3	
+3	foulera			root	VERB	0	1,2,4,6,8,11,12,16,21,34
+4	pas			neg	ADV	3	
+5	de			mwe	ADP	6	
+6	nouveau			advmod	ADJ	3	5
+7	la			det	DET	8	
+8	pelouse			dobj	NOUN	3	7,9
+9	lyonnaise			amod	ADJ	8	
+10	cette			det	DET	11	
+11	saison			nmod	NOUN	3	10
+12	,			punct	PUNCT	3	
+13	à			case	ADP	16	
+14	le			det	DET	16	
+15	même			amod	ADJ	16	
+16	titre			nmod	NOUN	3	13,14,15,17,19
+17	peut-être			advmod	VERB	16	
+18	que			mark	SCONJ	19	
+19	François			nmod	PROPN	16	18,20,23,28
+20	Clerc			name	PROPN	19	
+21	,			punct	PUNCT	3	
+22	toujours			advmod	ADV	23	
+23	blessé			amod	ADJ	19	22,24
+24	et			cc	CONJ	23	
+25	qui			nsubj	PRON	28	
+26	n'			neg	PART	28	
+27	a			aux	AUX	28	
+28	repris			acl	VERB	19	25,26,27,30,31,32
+29	l'			det	DET	30	
+30	entraînement			dobj	NOUN	28	29
+31	que			expl	SCONJ	28	
+32	dimanche			nmod	NOUN	28	33
+33	dernier			amod	ADJ	32	
+34	.			punct	PUNCT	3	
+Il ne foulera pas de nouveau la pelouse lyonnaise cette saison , à le même titre peut-être que François Clerc , toujours blessé et qui n' a repris l' entraînement que dimanche dernier . 
+
+0				n/a	n/a	-1	5
+1	La			det	DET	2	
+2	naturalisation			nsubj	NOUN	5	1
+3	ne			neg	PART	5	
+4	sera			cop	VERB	5	
+5	possible			root	ADJ	0	2,3,4,6,12,19,20,23,34
+6	qu'			expl	SCONJ	5	
+7	à			mwe	ADP	9	
+8	le			det	DET	9	
+9	bout			case	NOUN	12	7,8,10
+10	de			mwe	ADP	9	
+11	cinq			nummod	NUM	12	
+12	ans			nmod	NOUN	5	9,11,16
+13	(			punct	PUNCT	16	
+14	contre			case	ADP	16	
+15	trois			nummod	NUM	16	
+16	ans			nmod	NOUN	12	13,14,15,17,18
+17	aujourd'hui			advmod	ADV	16	
+18	)			punct	PUNCT	16	
+19	,			punct	PUNCT	5	
+20	et			cc	CONJ	5	
+21	elle			nsubj	PRON	23	
+22	sera			aux	AUX	23	
+23	soumise			conj	VERB	5	21,22,27
+24	à			case	ADP	27	
+25	un			det	DET	27	
+26	strict			amod	ADJ	27	
+27	examen			nmod	NOUN	23	24,25,26,29
+28	de			case	ADP	29	
+29	connaissance			nmod	NOUN	27	28,32
+30	de			case	ADP	32	
+31	la			det	DET	32	
+32	langue			nmod	NOUN	29	30,31,33
+33	néerlandaise			amod	ADJ	32	
+34	.			punct	PUNCT	5	
+La naturalisation ne sera possible qu' à le bout de cinq ans ( contre trois ans aujourd'hui ) , et elle sera soumise à un strict examen de connaissance de la langue néerlandaise . 
+

@@ -1,0 +1,149 @@
+0				n/a	n/a	-1	5
+1	Combien			advmod	ADV	5	3
+2	de			case	ADP	3	
+3	fois			nmod	NOUN	1	2
+4	ne			neg	PART	5	
+5	célébrons			root	VERB	0	1,4,6,7,8,9,10,12,20
+6	-nous			nsubj	PRON	5	
+7	que			expl	SCONJ	5	
+8	nous-mêmes			dobj	ADJ	5	
+9	,			punct	PUNCT	5	
+10	et			cc	CONJ	5	
+11	ne			neg	PART	12	
+12	prenons			conj	VERB	5	11,13,15,16
+13	-nous			nsubj	PRON	12	
+14	même			advmod	ADV	15	
+15	pas			neg	ADV	12	14
+16	conscience			dobj	NOUN	12	19
+17	de			case	ADP	19	
+18	sa			nmod	DET	19	
+19	présence			nmod	NOUN	16	17,18
+20	?			punct	PUNCT	5	
+Combien de fois ne célébrons -nous que nous-mêmes , et ne prenons -nous même pas conscience de sa présence ? 
+
+0				n/a	n/a	-1	6
+1	La			det	DET	2	
+2	justice			nsubj	NOUN	6	1,3
+3	française			amod	ADJ	2	
+4	n'			neg	PART	6	
+5	a			aux	AUX	6	
+6	fait			root	VERB	0	2,4,5,7,8,12
+7	qu'			expl	SCONJ	6	
+8	obéir			xcomp	VERB	6	9,11
+9	et			cc	CONJ	8	
+10	se			dobj	PRON	11	
+11	déjuger			conj	VERB	8	10
+12	.			punct	PUNCT	6	
+La justice française n' a fait qu' obéir et se déjuger . 
+
+0				n/a	n/a	-1	28
+1	Maintenant			advmod	ADV	28	
+2	,			punct	PUNCT	28	
+3	si			mark	SCONJ	7	
+4	des			det	DET	5	
+5	supporters			nsubj	NOUN	7	4
+6	veulent			aux	AUX	7	
+7	aider			advcl	VERB	28	3,5,6,9,15,17
+8	le			det	DET	9	
+9	club			dobj	NOUN	7	8
+10	à			case	ADP	15	12,13
+11	le			det	DET	15	
+12	travers			mwe	NOUN	10	
+13	d'			mwe	ADP	10	
+14	une			det	DET	15	
+15	souscription			nmod	NOUN	7	10,11,14
+16	pour			mark	ADP	17	
+17	faire			advcl	VERB	7	16,18
+18	revenir			xcomp	VERB	17	19,22
+19	Djibril			dobj	PROPN	18	
+20	à			case	ADP	22	
+21	l'			det	DET	22	
+22	AJA			nmod	PROPN	18	20,21
+23	,			punct	PUNCT	28	
+24	qu'			expl	SCONJ	28	
+25	ils			nsubj	PRON	28	
+26	nous			iobj	PRON	28	
+27	le			dobj	PRON	28	
+28	fassent			root	VERB	0	1,2,7,23,24,25,26,27,29,30,31
+29	savoir			xcomp	VERB	28	
+30	.			punct	PUNCT	28	
+31	"			punct	PUNCT	28	
+Maintenant , si des supporters veulent aider le club à le travers d' une souscription pour faire revenir Djibril à l' AJA , qu' ils nous le fassent savoir . " 
+
+0				n/a	n/a	-1	3
+1	--			punct	PUNCT	3	
+2	Le			det	DET	3	
+3	tout			root	NOUN	0	1,2,4,14,17,28
+4	saupoudré			acl	VERB	3	7
+5	d'			case	ADP	7	
+6	un			det	DET	7	
+7	niveau			nmod	NOUN	4	5,6,8,11
+8	gustatif			amod	ADJ	7	
+9	plus			advmod	ADV	11	10
+10	que			mwe	SCONJ	9	
+11	moyen			amod	ADJ	7	9
+12	En			mwe	ADP	13	
+13	gros			advmod	NOUN	17	12
+14	,			punct	PUNCT	3	
+15	je			nsubj	PRON	17	
+16	ne			neg	PART	17	
+17	saurai			parataxis	VERB	3	13,15,16,18,19
+18	que			expl	SCONJ	17	
+19	déconseiller			xcomp	VERB	17	22,27
+20	en			mwe	ADP	22	
+21	tout			mwe	DET	22	
+22	cas			advmod	NOUN	19	20,21
+23	pour			case	ADP	27	
+24	plus			advmod	ADV	26	25
+25	de			mwe	ADP	24	
+26	5			nummod	NUM	27	24
+27	personnes			nmod	NOUN	19	23,26
+28	!			punct	PUNCT	3	
+-- Le tout saupoudré d' un niveau gustatif plus que moyen En gros , je ne saurai que déconseiller en tout cas pour plus de 5 personnes ! 
+
+0				n/a	n/a	-1	4
+1	J'			nsubj	PRON	4	
+2	ai			aux	AUX	4	
+3	donc			advmod	ADV	4	
+4	choisi			root	VERB	0	1,2,3,7,13
+5	de			mark	ADP	7	
+6	ne			neg	PART	7	
+7	faire			acl	VERB	4	5,6,8,10
+8	qu'			expl	SCONJ	7	
+9	une			det	DET	10	
+10	coupe			conj	NOUN	7	9,11,12
+11	+			cc	SYM	10	
+12	balayage			conj	NOUN	10	
+13	.			punct	PUNCT	4	
+J' ai donc choisi de ne faire qu' une coupe + balayage . 
+
+0				n/a	n/a	-1	2
+1	Le			det	DET	2	
+2	signe			root	NOUN	0	1,5,7,9,11,20
+3	qui			nsubj	PRON	5	
+4	ne			neg	PART	5	
+5	trompe			acl	VERB	2	3,4,6
+6	pas			neg	ADV	5	
+7	,			punct	PUNCT	2	
+8	ce			det	DET	9	
+9	midi			nmod	NOUN	2	8,10
+10	là			advmod	ADV	9	
+11	...			punct	PUNCT	2	
+12	les			det	DET	13	
+13	clients			nsubj	NOUN	20	12,15
+14	à			case	ADP	15	
+15	table			nmod	NOUN	13	14
+16	n'			neg	PART	20	
+17	étaient			cop	VERB	20	
+18	que			expl	SCONJ	20	
+19	des			det	DET	20	
+20	habitués			parataxis	NOUN	2	13,16,17,18,19,21,22,26,27
+21	,			punct	PUNCT	20	
+22	et			cc	CONJ	20	
+23	la			det	DET	24	
+24	salle			nsubj	NOUN	26	23
+25	était			cop	VERB	26	
+26	pleine			conj	ADJ	20	24,25
+27	.			punct	PUNCT	20	
+Le signe qui ne trompe pas , ce midi là ... les clients à table n' étaient que des habitués , et la salle était pleine . 
+
