@@ -116,16 +116,20 @@ def GetMatches(sentence, dep_type, pos, search_rel):
   line_numbers = [ ]
 
   for word in sentence.words:
-    if word.deptype == dep_type:
+    nummod_parent = False
+    if word.HasParent() and sentence.words[word.p_dep].deptype == "nummod":
+      nummod_parent = True
+
+    if word.deptype == dep_type: # and nummod_parent:
       if search_rel == "w":
-        if word.pos == pos:
+        if word.pos != pos:
           line_numbers.append(sentence.line_number + word.id)
       elif search_rel == "h":
-        if word.HasParent() and sentence.words[word.p_dep].pos == pos:
+        if word.HasParent() and sentence.words[word.p_dep].pos != pos:
           line_numbers.append(sentence.line_number + word.id) 
       elif search_rel == "d":
         for child in word.child_dep:
-          if sentence.words[child].pos == pos:
+          if sentence.words[child].pos != pos:
             line_numbers.append(sentence.line_number + word.id)
       else:
         print "Warning: search_rel should be w, h, or d"

@@ -451,11 +451,12 @@ with open(lang_file) as lang_list:
     print "---------------------------- LANGUAGE : %s ----------------------------" % comps[0]
     # PrintHeadDepPosTags(sentences, sys.argv[3], comps[0])
     #CountRelPosTags(sentences, sys.argv[4], comps[0], pos_count) 
-    subtypes = GetSubtypes(sentences) 
+    #subtypes = GetSubtypes(sentences) 
+    CheckPattern(sentences, "\x85")
 
-    outfile = open(comps[0] + "_subtypes.txt", "w")
-    for subtype, count in subtypes.iteritems():
-      outfile.write(subtype + ": " + str(count) + "\n")
+    #outfile = open(comps[0] + "_subtypes.txt", "w")
+    #for subtype, count in subtypes.iteritems():
+      #outfile.write(subtype + ": " + str(count) + "\n")
 
     #outfile.close()
 
