@@ -1,0 +1,733 @@
+0				n/a	n/a	-1	12
+1	Le			det	DET	3	
+2	principal			amod	ADJ	3	
+3	argument			nsubj	NOUN	12	1,2,5
+4	de			case	ADP	5	
+5	vente			nmod	NOUN	3	4,8
+6	de			case	ADP	8	
+7	le			det	DET	8	
+8	produit			nmod	NOUN	5	6,7,9
+9	Actimel			appos	PROPN	8	
+10	est			cop	VERB	12	
+11	la			det	DET	12	
+12	présence			root	NOUN	0	3,10,11,15,28,29,30,70
+13	de			case	ADP	15	
+14	la			det	DET	15	
+15	bactérie			nmod	NOUN	12	13,14,16,20
+16	Lactobacillus			appos	PROPN	15	17,18
+17	casei			name	PROPN	16	
+18	DN-114001			appos	NUM	16	
+19	(			punct	PUNCT	20	
+20	appelée			acl	VERB	15	19,21,23,25
+21	commercialement			advmod	ADV	20	
+22	L.			compound	X	23	
+23	casei			appos	PROPN	20	22,24
+24	defensis			name	PROPN	23	
+25	)			punct	PUNCT	20	
+26	dans			case	ADP	28	
+27	ses			nmod	DET	28	
+28	ingrédients			nmod	NOUN	12	26,27
+29	,			punct	PUNCT	12	
+30	censée			amod	ADJ	12	32
+31	«			punct	PUNCT	32	
+32	renforcer			xcomp	VERB	30	31,34,39,46
+33	les			det	DET	34	
+34	défenses			dobj	NOUN	32	33,35,38
+35	naturelles			amod	ADJ	34	
+36	de			case	ADP	38	
+37	le			det	DET	38	
+38	corps			nmod	NOUN	34	36,37
+39	»			punct	PUNCT	32	
+40	,			punct	PUNCT	46	
+41	chaque			det	DET	42	
+42	dose			nsubj	NOUN	46	41,45
+43	de			case	ADP	45	
+44	100			nummod	NUM	45	
+45	mL			nmod	NOUN	42	43,44
+46	contenant			advcl	VERB	32	40,42,53,55,60
+47	près			advmod	ADV	49	48
+48	de			mwe	ADP	47	
+49	10			nummod	NUM	50	47
+50	milliards			det	NUM	53	49,52
+51	de			case	ADP	52	
+52	ces			nmod	DET	50	51
+53	bactéries			dobj	NOUN	46	50,54
+54	probiotiques			amod	ADJ	53	
+55	,			punct	PUNCT	46	
+56	en			mwe	ADP	57	
+57	plus			case	ADV	60	56,58,59
+58	de			mwe	ADP	57	
+59	les			det	DET	57	
+60	bactéries			nmod	NOUN	46	57,62
+61	naturellement			advmod	ADV	62	
+62	présentes			amod	ADJ	60	61,65
+63	dans			case	ADP	65	
+64	les			det	DET	65	
+65	yaourts			nmod	NOUN	62	63,64,69
+66	(			punct	PUNCT	69	
+67	L.			compound	X	69	
+68	delbrueckii			compound	X	69	
+69	subsp			appos	X	65	66,67,68
+70	.			punct	PUNCT	12	
+Le principal argument de vente de le produit Actimel est la présence de la bactérie Lactobacillus casei DN-114001 ( appelée commercialement L. casei defensis ) dans ses ingrédients , censée « renforcer les défenses naturelles de le corps » , chaque dose de 100 mL contenant près de 10 milliards de ces bactéries probiotiques , en plus de les bactéries naturellement présentes dans les yaourts ( L. delbrueckii subsp . 
+
+0				n/a	n/a	-1	4
+1	Ce			det	DET	2	
+2	fleuve			nsubj	NOUN	4	1
+3	est			cop	VERB	4	
+4	censé			root	ADJ	0	2,3,5,14,22,27,32
+5	couler			xcomp	VERB	4	7,8,9
+6	six			nummod	NUM	7	
+7	jours			dobj	NOUN	5	6
+8	et			cc	CONJ	5	
+9	rester			conj	VERB	5	11,13
+10	à			case	ADP	11	
+11	sec			amod	ADJ	9	10
+12	le			det	DET	13	
+13	septième			nmod	NOUN	9	12,18
+14	,			punct	PUNCT	4	
+15	d'			case	ADP	16	
+16	où			nmod	PRON	18	15
+17	son			nmod	DET	18	
+18	nom			appos	NOUN	13	16,17,20
+19	«			punct	PUNCT	20	
+20	sabbatique			amod	ADJ	18	19,21
+21	»			punct	PUNCT	20	
+22	,			punct	PUNCT	4	
+23	Pline			name	PROPN	25	
+24	l'			det	DET	25	
+25	Ancien			nsubj	PROPN	27	23,24
+26	se			dobj	PRON	27	
+27	contente			conj	VERB	4	25,26,30
+28	d'			case	ADP	30	
+29	y			iobj	PRON	30	
+30	faire			acl	VERB	27	28,29,31
+31	allusion			dobj	NOUN	30	
+32	.			punct	PUNCT	4	
+Ce fleuve est censé couler six jours et rester à sec le septième , d' où son nom « sabbatique » , Pline l' Ancien se contente d' y faire allusion . 
+
+0				n/a	n/a	-1	19
+1	Les			det	DET	2	
+2	élus			nsubj	NOUN	19	1,3,4,9
+3	français			amod	ADJ	2	
+4	,			punct	PUNCT	2	
+5	dont			iobj	PRON	9	
+6	certains			nsubj	AUX	9	
+7	sont			cop	VERB	9	
+8	des			det	DET	9	
+9	militants			acl	NOUN	2	5,6,7,8,12
+10	de			case	ADP	12	
+11	les			det	DET	12	
+12	droits			nmod	NOUN	9	10,11,15
+13	de			case	ADP	15	
+14	l'			det	DET	15	
+15	homme			nmod	NOUN	12	13,14
+16	,			punct	PUNCT	19	
+17	ont			aux	AUX	19	
+18	été			cop	VERB	19	
+19	unanimes			root	ADJ	0	2,16,17,18,21,75
+20	pour			mark	ADP	21	
+21	dénoncer			advcl	VERB	19	20,23
+22	l'			det	DET	23	
+23	État			dobj	NOUN	21	22,24,26,32,34
+24	français			amod	ADJ	23	
+25	qui			nsubj	PRON	26	
+26	apporte			acl	VERB	23	25,28
+27	son			nmod	DET	28	
+28	soutien			dobj	NOUN	26	27,31
+29	à			case	ADP	31	
+30	le			det	DET	31	
+31	Maroc			nmod	PROPN	28	29,30
+32	et			cc	CONJ	23	
+33	qui			nsubj	PRON	34	
+34	continue			acl	VERB	23	33,35
+35	d'			case	ADP	34	36
+36	opposer			xcomp	VERB	35	38
+37	son			nmod	DET	38	
+38	veto			dobj	NOUN	36	37,41,66
+39	sur			case	ADP	41	
+40	la			det	DET	41	
+41	mise			nmod	NOUN	38	39,40,43,46
+42	sur			case	ADP	43	
+43	pied			nmod	NOUN	41	42
+44	d'			case	ADP	46	
+45	un			det	DET	46	
+46	mécanisme			nmod	NOUN	41	44,45,48,60
+47	de			case	ADP	48	
+48	surveillance			nmod	NOUN	46	47,49,51
+49	et			cc	CONJ	48	
+50	de			case	ADP	51	
+51	protection			conj	NOUN	48	50,54
+52	de			case	ADP	54	
+53	les			det	DET	54	
+54	droits			nmod	NOUN	51	52,53,57
+55	de			case	ADP	57	
+56	l'			det	DET	57	
+57	homme			nmod	NOUN	54	55,56
+58	dans			case	ADP	60	
+59	les			det	DET	60	
+60	territoires			nmod	NOUN	46	58,59,61,62
+61	sahraouis			amod	ADJ	60	
+62	occupés			amod	ADJ	60	
+63	dans			case	ADP	66	
+64	la			det	DET	66	
+65	dernière			amod	ADJ	66	
+66	résolution			nmod	NOUN	38	63,64,65,69
+67	de			case	ADP	69	
+68	le			det	DET	69	
+69	Conseil			nmod	PROPN	66	67,68,71,74
+70	de			case	ADP	71	
+71	sécurité			nmod	NOUN	69	70
+72	de			case	ADP	74	
+73	l'			det	DET	74	
+74	ONU			nmod	PROPN	69	72,73
+75	.			punct	PUNCT	19	
+Les élus français , dont certains sont des militants de les droits de l' homme , ont été unanimes pour dénoncer l' État français qui apporte son soutien à le Maroc et qui continue d' opposer son veto sur la mise sur pied d' un mécanisme de surveillance et de protection de les droits de l' homme dans les territoires sahraouis occupés dans la dernière résolution de le Conseil de sécurité de l' ONU . 
+
+0				n/a	n/a	-1	14
+1	Seules			amod	ADJ	3	
+2	des			det	DET	3	
+3	impostes			nsubj	NOUN	14	1,2,4,5,7
+4	moulurées			amod	ADJ	3	
+5	,			punct	PUNCT	3	
+6	ayant			aux	AUX	7	
+7	servi			acl	VERB	3	6,9,12,13
+8	d'			case	ADP	9	
+9	appui			nmod	NOUN	7	8
+10	pour			case	ADP	12	
+11	les			det	DET	12	
+12	cintres			nmod	NOUN	7	10,11
+13	,			punct	PUNCT	7	
+14	viennent			root	AUX	0	3,15,29
+15	animer			xcomp	VERB	14	17
+16	la			det	DET	17	
+17	nudité			dobj	NOUN	15	16,20
+18	de			case	ADP	20	
+19	les			det	DET	20	
+20	murs			nmod	NOUN	17	18,19,21,24
+21	,			punct	PUNCT	20	
+22	lesquels			nsubj	PRON	24	
+23	ne			neg	PART	24	
+24	comportent			acl	VERB	20	22,23,26
+25	aucune			neg	DET	26	
+26	lésène			dobj	NOUN	24	25,27,28
+27	ni			cc	CONJ	26	
+28	bandeau			conj	NOUN	26	
+29	.			punct	PUNCT	14	
+Seules des impostes moulurées , ayant servi d' appui pour les cintres , viennent animer la nudité de les murs , lesquels ne comportent aucune lésène ni bandeau . 
+
+0				n/a	n/a	-1	1
+1	Censé			root	ADJ	0	2,5,10,16
+2	fermer			xcomp	VERB	1	4
+3	à			case	ADP	4	
+4	23H			nmod	NOUN	2	3
+5	mais			cc	CONJ	1	
+6	dès			case	ADP	7	
+7	22h			nmod	NOUN	10	6
+8	on			nsubj	PRON	10	
+9	vous			nsubj	PRON	11	
+10	fait			conj	VERB	1	7,8,11
+11	sentir			ccomp	VERB	10	9,15
+12	que			mark	SCONJ	15	
+13	la			det	DET	14	
+14	fermeture			nsubj	NOUN	15	13
+15	approche			ccomp	VERB	11	12,14
+16	.			punct	PUNCT	1	
+Censé fermer à 23H mais dès 22h on vous fait sentir que la fermeture approche . 
+
+0				n/a	n/a	-1	2
+1	Il			nsubj	PRON	2	
+2	nomma			root	VERB	0	1,5,8
+3	le			det	DET	5	
+4	nouvel			amod	ADJ	5	
+5	édifice			dobj	NOUN	2	3,4,6
+6	Namgyal			xcomp	PROPN	5	7
+7	Chödzong			name	PROPN	6	
+8	.			punct	PUNCT	2	
+Il nomma le nouvel édifice Namgyal Chödzong . 
+
+0				n/a	n/a	-1	6
+1	La			det	DET	2	
+2	samba			nsubj	NOUN	6	1
+3	est			cop	VERB	6	
+4	alors			advmod	ADV	6	
+5	une			det	DET	6	
+6	danse			root	NOUN	0	2,3,4,5,8,9,16,17
+7	très			advmod	ADV	8	
+8	complète			xcomp	ADJ	6	7
+9	car			cc	CONJ	6	
+10	chaque			det	DET	11	
+11	partie			nsubjpass	NOUN	16	10,14
+12	de			case	ADP	14	
+13	le			det	DET	14	
+14	corps			nmod	NOUN	11	12,13
+15	est			auxpass	AUX	16	
+16	utilisée			conj	VERB	6	11,15
+17	.			punct	PUNCT	6	
+La samba est alors une danse très complète car chaque partie de le corps est utilisée . 
+
+0				n/a	n/a	-1	3
+1	Il			nsubj	PRON	3	
+2	est			cop	VERB	3	
+3	inutile			root	ADJ	0	1,2,5,22
+4	de			mark	ADP	5	
+5	développer			acl	VERB	3	4,6,7,21
+6	Rodrigues			dobj	PROPN	5	
+7	matériellement			advmod	ADV	5	
+8	si			mark	SCONJ	21	
+9	en			case	ADP	21	11
+10	même			amod	ADJ	11	
+11	temps			xcomp	NOUN	9	10
+12	le			det	DET	13	
+13	Rodriguais			nsubj	PROPN	21	12,14,16
+14	et			cc	CONJ	13	
+15	la			det	DET	16	
+16	Rodriguaise			conj	PROPN	13	15
+17	ne			neg	PART	21	
+18	peuvent			aux	AUX	21	
+19	pas			neg	ADV	21	
+20	se			dobj	PRON	21	
+21	développer			advcl	VERB	5	8,9,13,17,18,19,20
+22	.			punct	PUNCT	3	
+Il est inutile de développer Rodrigues matériellement si en même temps le Rodriguais et la Rodriguaise ne peuvent pas se développer . 
+
+0				n/a	n/a	-1	9
+1	Le			det	DET	2	
+2	colibri			nsubj	NOUN	9	1,4
+3	à			case	ADP	4	
+4	gorge			nmod	NOUN	2	3,5
+5	rubis			amod	ADJ	4	
+6	est			cop	VERB	9	
+7	un			det	DET	9	
+8	autre			amod	ADJ	9	
+9	migrateur			root	NOUN	0	2,6,7,8,11,29
+10	pouvant			aux	AUX	11	
+11	traverser			xcomp	VERB	9	10,15,17,21,22
+12	d'			case	ADP	15	
+13	une			det	DET	15	
+14	seule			amod	ADJ	15	
+15	traite			nmod	NOUN	11	12,13,14
+16	le			det	DET	17	
+17	golfe			dobj	NOUN	11	16,20
+18	de			case	ADP	20	
+19	le			det	DET	20	
+20	Mexique			nmod	PROPN	17	18,19
+21	et			cc	CONJ	11	
+22	parcourant			conj	VERB	11	23,24,27
+23	ainsi			advmod	ADV	22	
+24	environ			advmod	ADV	22	
+25	sans			case	ADP	27	
+26	aucune			neg	DET	27	
+27	halte			nmod	NOUN	22	25,26,28
+28	possible			amod	ADJ	27	
+29	.			punct	PUNCT	9	
+Le colibri à gorge rubis est un autre migrateur pouvant traverser d' une seule traite le golfe de le Mexique et parcourant ainsi environ sans aucune halte possible . 
+
+0				n/a	n/a	-1	6
+1	Le			det	DET	2	
+2	restaurant			nsubj	NOUN	6	1
+3	est			cop	VERB	6	
+4	à			case	ADP	6	
+5	l'			det	DET	6	
+6	image			root	NOUN	0	2,3,4,5,9,12,13,14,18
+7	de			case	ADP	9	
+8	les			det	DET	9	
+9	services			nmod	NOUN	6	7,8
+10	qu'			dobj	PRON	12	
+11	il			nsubj	PRON	12	
+12	propose			acl	VERB	6	10,11
+13	:			punct	PUNCT	6	
+14	sincère			xcomp	ADJ	6	15,17
+15	et			cc	CONJ	14	
+16	de			case	ADP	17	
+17	qualité			conj	NOUN	14	16
+18	.			punct	PUNCT	6	
+Le restaurant est à l' image de les services qu' il propose : sincère et de qualité . 
+
+0				n/a	n/a	-1	13
+1	L'			det	DET	2	
+2	utilisation			nsubj	NOUN	13	1,4,8
+3	de			case	ADP	4	
+4	couleur			nmod	NOUN	2	3
+5	à			case	ADP	8	6
+6	même			mwe	ADV	5	
+7	l'			det	DET	8	
+8	invite			nmod	NOUN	2	5,7,9,12
+9	et			cc	CONJ	8	
+10	dans			case	ADP	12	
+11	les			det	DET	12	
+12	autocomplétions			conj	NOUN	8	10,11
+13	rend			root	VERB	0	2,15,18
+14	la			det	DET	15	
+15	saisie			dobj	NOUN	13	14,17
+16	plus			advmod	ADV	17	
+17	facile			xcomp	ADJ	15	16
+18	.			punct	PUNCT	13	
+L' utilisation de couleur à même l' invite et dans les autocomplétions rend la saisie plus facile . 
+
+0				n/a	n/a	-1	39
+1	Entre			acl	VERB	39	3
+2	la			det	DET	3	
+3	croissance			dobj	NOUN	1	2,5,6,8,20,22,28,30
+4	qui			nsubj	PRON	5	
+5	ralentit			acl	VERB	3	4
+6	,			punct	PUNCT	3	
+7	le			det	DET	8	
+8	moral			conj	NOUN	3	7,11,19
+9	de			case	ADP	11	
+10	les			det	DET	11	
+11	ménages			nmod	NOUN	8	9,10,12,15
+12	et			cc	CONJ	11	
+13	de			case	ADP	15	
+14	les			det	DET	15	
+15	chefs			nmod	NOUN	11	13,14,17
+16	d'			case	ADP	17	
+17	entreprises			nmod	NOUN	15	16
+18	qui			nsubj	PRON	19	
+19	flanche			acl	VERB	8	18
+20	,			punct	PUNCT	3	
+21	les			det	DET	22	
+22	politiques			conj	NOUN	3	21,23
+23	restrictives			amod	ADJ	22	25
+24	d'			case	ADP	25	
+25	Etats			nmod	NOUN	23	24,27
+26	trop			advmod	ADV	27	
+27	endettés			amod	ADJ	25	26
+28	et			cc	CONJ	3	
+29	la			det	DET	30	
+30	crise			conj	NOUN	3	29,31,33
+31	européenne			amod	ADJ	30	
+32	qui			nsubj	PRON	33	
+33	repart			acl	VERB	30	32
+34	,			punct	PUNCT	39	
+35	la			det	DET	36	
+36	rentrée			nsubj	NOUN	39	35,37
+37	économique			amod	ADJ	36	
+38	s'			dobj	PRON	39	
+39	annonce			root	NOUN	0	1,34,36,38,40,41
+40	difficile			xcomp	ADJ	39	
+41	.			punct	PUNCT	39	
+Entre la croissance qui ralentit , le moral de les ménages et de les chefs d' entreprises qui flanche , les politiques restrictives d' Etats trop endettés et la crise européenne qui repart , la rentrée économique s' annonce difficile . 
+
+0				n/a	n/a	-1	13
+1	Quelques			det	DET	2	
+2	jours			nsubj	NOUN	13	1,3
+3	passés			acl	VERB	2	6
+4	à			case	ADP	6	
+5	le			det	DET	6	
+6	Jardin			nmod	NOUN	3	4,5,8
+7	d'			case	ADP	8	
+8	Homps			nmod	PROPN	6	7
+9	,			punct	PUNCT	13	
+10	c'			expl	PRON	13	
+11	est			cop	VERB	13	
+12	tout			advmod	ADV	13	
+13	simplement			root	ADV	0	2,9,10,11,12,15,19
+14	se			dobj	PRON	15	
+15	retrouver			xcomp	VERB	13	14,18
+16	à			case	ADP	18	
+17	le			det	DET	18	
+18	paradis			nmod	NOUN	15	16,17
+19	.			punct	PUNCT	13	
+Quelques jours passés à le Jardin d' Homps , c' est tout simplement se retrouver à le paradis . 
+
+0				n/a	n/a	-1	3
+1	S'			expl	PRON	3	
+2	en			nmod	PRON	3	37
+3	suit			root	VERB	0	1,2,5,10
+4	un			det	DET	5	
+5	parcours			nsubj	NOUN	3	4,6,8,11
+6	standard			amod	ADJ	5	
+7	de			case	ADP	8	
+8	montagnes			nmod	NOUN	5	7,9
+9	russes			amod	ADJ	8	
+10	,			punct	PUNCT	3	
+11	contenant			acl	VERB	5	12,15
+12	notamment			advmod	ADV	11	
+13	une			det	DET	15	
+14	double			amod	ADJ	15	
+15	inversion			dobj	NOUN	11	13,14,16,17,18,20,26,29,30,31,33,35
+16	appelée			acl	VERB	15	
+17	roll-over			xcomp	NOUN	15	
+18	,			punct	PUNCT	15	
+19	un			det	DET	20	
+20	corkscrew			conj	NOUN	15	19,23
+21	(			punct	PUNCT	23	
+22	«			punct	PUNCT	23	
+23	tire-bouchon			appos	NOUN	20	21,22,24,25
+24	»			punct	PUNCT	23	
+25	)			punct	PUNCT	23	
+26	,			punct	PUNCT	15	
+27	de			det	DET	29	
+28	nombreuses			amod	ADJ	29	
+29	descentes			conj	NOUN	15	27,28
+30	,			punct	PUNCT	15	
+31	virages			conj	NOUN	15	32
+32	serrés			amod	ADJ	31	
+33	et			cc	CONJ	15	
+34	un			det	DET	35	
+35	arrêt			conj	NOUN	15	34,36
+36	brusque			amod	ADJ	35	
+37	.			punct	PUNCT	2	
+S' en suit un parcours standard de montagnes russes , contenant notamment une double inversion appelée roll-over , un corkscrew ( « tire-bouchon » ) , de nombreuses descentes , virages serrés et un arrêt brusque . 
+
+0				n/a	n/a	-1	10
+1	Marie			nsubj	PROPN	10	2,3,5
+2	Coralie			name	PROPN	1	
+3	Geoffroy			name	PROPN	1	
+4	,			punct	PUNCT	5	
+5	née			xcomp	VERB	1	4,6,7
+6	Guffroy			dobj	PROPN	5	
+7	,			punct	PUNCT	5	
+8	est			cop	VERB	10	
+9	une			det	DET	10	
+10	comédienne			root	NOUN	0	1,8,9,11,12,13,14,15,22
+11	et			cc	CONJ	10	
+12	chanteuse			conj	PROPN	10	
+13	française			amod	ADJ	10	
+14	,			punct	PUNCT	10	
+15	née			acl	VERB	10	17,18,19
+16	en			case	ADP	17	
+17	1842			nmod	NUM	15	16
+18	et			cc	CONJ	15	
+19	décédée			conj	VERB	15	21
+20	après			case	ADP	21	
+21	1905			nmod	NUM	19	20
+22	.			punct	PUNCT	10	
+Marie Coralie Geoffroy , née Guffroy , est une comédienne et chanteuse française , née en 1842 et décédée après 1905 . 
+
+0				n/a	n/a	-1	3
+1	Nasser			nsubjpass	PROPN	3	
+2	se			dobj	PRON	3	
+3	retrouve			root	AUX	0	1,2,4,5
+4	donc			advmod	ADV	3	
+5	contraint			xcomp	VERB	3	7,23
+6	de			mark	ADP	7	
+7	demander			acl	VERB	5	6,9
+8	l'			det	DET	9	
+9	aide			dobj	NOUN	7	8,10,11,12,16
+10	financière			amod	ADJ	9	
+11	et			cc	CONJ	9	
+12	politique			conj	NOUN	9	
+13	de			case	ADP	16	
+14	ses			nmod	DET	16	
+15	anciens			amod	ADJ	16	
+16	adversaires			nmod	NOUN	9	13,14,15,17,19
+17	,			punct	PUNCT	16	
+18	les			det	DET	19	
+19	monarchies			appos	NOUN	16	18,22
+20	de			case	ADP	22	
+21	le			det	DET	22	
+22	Golfe			nmod	PROPN	19	20,21
+23	.			punct	PUNCT	5	
+Nasser se retrouve donc contraint de demander l' aide financière et politique de ses anciens adversaires , les monarchies de le Golfe . 
+
+0				n/a	n/a	-1	3
+1	On			nsubj	PRON	3	
+2	y			advmod	ADV	3	
+3	trouve			root	VERB	0	1,2,5,7,27
+4	des			det	DET	5	
+5	dômes			dobj	NOUN	3	4,6,10,19,20,21
+6	salins			amod	ADJ	5	
+7	,			punct	PUNCT	3	
+8	ayant			aux	AUX	10	
+9	pu			aux	AUX	10	
+10	donner			xcomp	VERB	5	8,9,11
+11	lien			dobj	NOUN	10	14
+12	à			case	ADP	14	
+13	l'			det	DET	14	
+14	exploitation			nmod	NOUN	11	12,13,16
+15	de			case	ADP	16	
+16	mines			nmod	NOUN	14	15,18
+17	de			case	ADP	18	
+18	sel			nmod	NOUN	16	17
+19	,			punct	PUNCT	5	
+20	et			cc	CONJ	5	
+21	responsables			conj	ADJ	5	23
+22	de			case	ADP	23	
+23	zones			nmod	NOUN	21	22,25
+24	de			case	ADP	25	
+25	reliefs			nmod	NOUN	23	24,26
+26	karstiques			amod	ADJ	25	
+27	.			punct	PUNCT	3	
+On y trouve des dômes salins , ayant pu donner lien à l' exploitation de mines de sel , et responsables de zones de reliefs karstiques . 
+
+0				n/a	n/a	-1	7
+1	À			case	ADP	3	
+2	vrai			advmod	ADV	3	
+3	dire			nmod	VERB	7	1,2
+4	,			punct	PUNCT	7	
+5	peu			nsubj	PRON	7	
+6	se			dobj	PRON	7	
+7	soucient			root	VERB	0	3,4,5,6,9,17,18,22,34
+8	des			det	DET	9	
+9	colonies			dobj	NOUN	7	8,12
+10	à			case	ADP	12	
+11	l'			det	DET	12	
+12	intérieur			nmod	NOUN	9	10,11,15
+13	de			case	ADP	15	
+14	le			det	DET	15	
+15	territoire			nmod	NOUN	12	13,14,16
+16	français			amod	ADJ	15	
+17	,			punct	PUNCT	7	
+18	et			cc	CONJ	7	
+19	l'			expl	PRON	20	
+20	on			nsubj	PRON	22	19
+21	ne			neg	PART	22	
+22	manqua			conj	VERB	7	20,21,23,26
+23	pas			neg	ADV	22	
+24	de			mark	ADP	26	
+25	se			dobj	PRON	26	
+26	demander			acl	VERB	22	24,25,27,33
+27	sérieusement			advmod	ADV	26	
+28	«			punct	PUNCT	33	
+29	À			case	ADP	30	
+30	quoi			nmod	PRON	33	29,31
+31	bon			xcomp	ADJ	30	
+32	les			det	DET	33	
+33	colonies			dobj	NOUN	26	28,30,32
+34	?			punct	PUNCT	7	
+À vrai dire , peu se soucient des colonies à l' intérieur de le territoire français , et l' on ne manqua pas de se demander sérieusement « À quoi bon les colonies ? 
+
+0				n/a	n/a	-1	26
+1	Si			mark	SCONJ	8	
+2	le			det	DET	3	
+3	modèle			nsubj	NOUN	8	2,5
+4	de			case	ADP	5	
+5	base			nmod	NOUN	3	4
+6	est			cop	VERB	8	
+7	souvent			advmod	ADV	8	
+8	celui			advcl	PRON	26	1,3,6,7,9,12
+9	proposé			acl	VERB	8	11
+10	par			case	ADP	11	
+11	Guthrie			nmod	PROPN	9	10
+12	,			punct	PUNCT	8	
+13	d'			det	DET	15	
+14	autres			amod	ADJ	15	
+15	chercheurs			nsubj	NOUN	26	13,14
+16	plutôt			mark	ADV	19	17
+17	que			mwe	SCONJ	16	
+18	de			mark	ADP	19	
+19	vouloir			advcl	AUX	26	16,18,21
+20	l'			dobj	PRON	21	
+21	approfondir			xcomp	VERB	19	20,22,24
+22	ou			cc	CONJ	21	
+23	le			dobj	PRON	24	
+24	corriger			conj	VERB	21	23
+25	ont			aux	AUX	26	
+26	proposé			root	VERB	0	8,15,19,25,28,31,34,60
+27	une			det	DET	28	
+28	approche			dobj	NOUN	26	27,30
+29	totalement			advmod	ADV	30	
+30	différente			amod	ADJ	28	29
+31	,			punct	PUNCT	26	
+32	à			case	ADP	34	
+33	le			det	DET	34	
+34	sens			nmod	NOUN	26	32,33,45
+35	où			nmod	PRON	45	
+36	le			det	DET	37	
+37	caractère			nsubjpass	NOUN	45	36,38,41
+38	séquentiel			amod	ADJ	37	
+39	de			case	ADP	41	
+40	la			det	DET	41	
+41	recherche			nmod	NOUN	37	39,40,43
+42	d'			case	ADP	43	
+43	information			nmod	NOUN	41	42
+44	est			auxpass	AUX	45	
+45	abandonné			acl	VERB	34	35,37,44,48
+46	à			case	ADP	48	
+47	le			det	DET	48	
+48	profit			nmod	NOUN	45	46,47,51
+49	d'			case	ADP	51	
+50	une			det	DET	51	
+51	description			nmod	NOUN	48	49,50,54
+52	de			case	ADP	54	
+53	les			det	DET	54	
+54	composantes			nmod	NOUN	51	52,53,57
+55	de			case	ADP	57	
+56	l'			det	DET	57	
+57	activité			nmod	NOUN	54	55,56,59
+58	de			case	ADP	59	
+59	recherche			nmod	NOUN	57	58
+60	.			punct	PUNCT	26	
+Si le modèle de base est souvent celui proposé par Guthrie , d' autres chercheurs plutôt que de vouloir l' approfondir ou le corriger ont proposé une approche totalement différente , à le sens où le caractère séquentiel de la recherche d' information est abandonné à le profit d' une description de les composantes de l' activité de recherche . 
+
+0				n/a	n/a	-1	4
+1	Ce			det	DET	3	
+2	grand			xcomp	ADJ	3	
+3	écart			nsubj	NOUN	4	1,2
+4	place			root	VERB	0	3,6,9,53
+5	la			det	DET	6	
+6	France			dobj	PROPN	4	5
+7	dans			case	ADP	9	
+8	une			det	DET	9	
+9	position			nmod	NOUN	4	7,8,13,20,22
+10	qui			nsubj	PRON	13	
+11	pourrait			aux	AUX	13	
+12	s'			dobj	PRON	13	
+13	avérer			acl	VERB	9	10,11,12,14,18
+14	délicate			xcomp	ADJ	13	
+15	vis-à-vis			dobj	NOUN	18	
+16	de			case	ADP	18	
+17	l'			det	DET	18	
+18	Union			nmod	PROPN	13	15,16,17,19
+19	européenne			amod	ADJ	18	
+20	:			punct	PUNCT	9	
+21	elle			nsubj	PRON	22	
+22	rend			parataxis	VERB	9	21,24,43,46
+23	l'			det	DET	24	
+24	accomplissement			dobj	NOUN	22	23,27
+25	de			case	ADP	27	
+26	les			det	DET	27	
+27	obligations			nmod	NOUN	24	25,26,29,30
+28	de			case	ADP	29	
+29	résultat			nmod	NOUN	27	28
+30	fixées			acl	VERB	27	33
+31	par			case	ADP	33	
+32	la			det	DET	33	
+33	directive			nmod	NOUN	30	31,32,34,39
+34	cadre			compound	NOUN	33	37
+35	sur			case	ADP	37	
+36	l'			det	DET	37	
+37	eau			nmod	NOUN	34	35,36
+38	(			punct	PUNCT	39	
+39	DCE			appos	X	33	38,40
+40	)			punct	PUNCT	39	
+41	à			case	ADP	43	
+42	l'			det	DET	43	
+43	horizon			nmod	NOUN	22	41,42,44
+44	2015			nmod	NUM	43	
+45	plus			advmod	ADV	46	
+46	coûteux			xcomp	ADJ	22	45,47,49,50,52
+47	,			punct	PUNCT	46	
+48	plus			advmod	ADV	49	
+49	difficile			conj	ADJ	46	48
+50	et			cc	CONJ	46	
+51	plus			advmod	ADV	52	
+52	aléatoire			conj	NOUN	46	51
+53	.			punct	PUNCT	4	
+Ce grand écart place la France dans une position qui pourrait s' avérer délicate vis-à-vis de l' Union européenne : elle rend l' accomplissement de les obligations de résultat fixées par la directive cadre sur l' eau ( DCE ) à l' horizon 2015 plus coûteux , plus difficile et plus aléatoire . 
+
+0				n/a	n/a	-1	1
+1	Ce			root	PRON	0	3
+2	que			nsubj	PRON	3	
+3	confirment			acl	VERB	1	2,5,11,20
+4	les			det	DET	5	
+5	Victoires			dobj	NOUN	3	4,8
+6	de			case	ADP	8	
+7	la			det	DET	8	
+8	Musique			nmod	PROPN	5	6,7,9
+9	88			nummod	NUM	8	
+10	en			mark	ADP	11	
+11	couronnant			advcl	VERB	3	10,13
+12	"			punct	PUNCT	13	
+13	Akwaba			dobj	PROPN	11	12,14,15,17,19
+14	Beach			name	PROPN	13	
+15	"			punct	PUNCT	13	
+16	Meilleur			amod	ADJ	17	
+17	album			xcomp	NOUN	13	16,18
+18	francophone			amod	ADJ	17	
+19	"			punct	PUNCT	13	
+20	.			punct	PUNCT	3	
+Ce que confirment les Victoires de la Musique 88 en couronnant " Akwaba Beach " Meilleur album francophone " . 
+

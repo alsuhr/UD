@@ -1,0 +1,21 @@
+0				n/a	n/a	-1	17
+1	Belle			xcomp	ADJ	17	2,3,4,5,6,7
+2	,			punct	PUNCT	1	
+3	grande			conj	ADJ	1	
+4	,			punct	PUNCT	1	
+5	claire			conj	ADJ	1	
+6	,			punct	PUNCT	1	
+7	séduisante			conj	ADJ	1	9
+8	à			case	ADP	9	
+9	souhait			nmod	NOUN	7	8
+10	,			punct	PUNCT	17	
+11	elle			nsubj	PRON	17	
+12	est			cop	VERB	17	
+13	pourtant			advmod	ADV	17	
+14	déjà			advmod	ADV	17	
+15	à			case	ADP	17	
+16	la			det	DET	17	
+17	retraite			root	NOUN	0	1,10,11,12,13,14,15,16,18
+18	.			punct	PUNCT	17	
+Belle , grande , claire , séduisante à souhait , elle est pourtant déjà à la retraite . 
+
