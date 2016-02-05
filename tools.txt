@@ -1,0 +1,30 @@
+## For a list of dependencies (closed-class), get the list and counts of words
+## in that class.
+1. Make a directory which will include lists of acceptable words for each
+   dependency type.
+2. In this directory, make one file per dependency, named the dependency name.
+   For example, you might have a file called "cop" and another called "case".
+3. For each dependency file, add in whatever words you consider acceptable for
+   that dependency. Files may be empty (but must exist).
+4. Make a list of dependencies you want to check -- one per file you created
+   in the directory. This file should have one dependency name per line.
+
+closed_class_dependencies.py
+  file -- the file to look at for examples of words (e.g. fr-ud-train.conllu)
+  wordlist_prefix -- the name of the directory you created with the acceptable
+      words. Must include a "/" at the end.
+  dependency_list -- a file including the list of dependencies you want to
+      check.
+  output_prefix -- the prefix for an output directory. A new file will be
+      created for each dependency, including each word and the count which was
+      marked with that dependency. Must include a "/" at the end.
+
+## Get the dependency types for a given word.
+This script will, for each word you provide, count up the number of times it is
+marked for each dependency. It will output a section per word and include the
+marked dependencies and counts.
+
+func_dep_count.py
+  filename -- the file to look in for a particular word.
+  wordlist -- a file containing a list of words to look at the dependency types
+      of.
